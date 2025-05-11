@@ -27,9 +27,4 @@ return [
 
     'call_to_action_title' => 'Explore our services and discover how we can help you build the project you envision.',
     'call_to_action_text' => 'We create individual, functional home designs with a classic and modern approach since 2004.',
-
-    'contact_phone' => '610-637-4947',
-    'contact_email' => 'resendizhdz@yahoo.com',
-    'contact_address' => '1895 W Skippack Pike',
-    'contact_city' => 'Blue Bell, PA 19422',
 ];

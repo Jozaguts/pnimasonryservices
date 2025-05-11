@@ -195,17 +195,17 @@
                 <div class="col-12 col-md-auto d-flex align-items-center">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-phone"></i></span>
-                    <div class="keditable me-5 ms-3">{{__('home.contact_phone')}}<a href="tel:2677337053"><br></a></div>
+                    <div class="keditable me-5 ms-3">{{__('ui.contact_phone')}}<a href="tel:2677337053"><br></a></div>
                 </div>
                 <div class="col-12 col-md-auto d-flex align-items-center my-4 my-md-0">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-envelope"></i></span>
-                    <div class="keditable me-5 ms-3">{{__('home.contact_email')}}</div>
+                    <div class="keditable me-5 ms-3">{{__('ui.contact_email')}}</div>
                 </div>
                 <div class="col-12 col-md-auto d-flex align-items-center">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-map-marker-alt"></i></span>
-                    <div class="keditable ms-3">{{__('home.contact_address')}}<div>{{__('home.contact_city')}}</div>
+                    <div class="keditable ms-3">{{__('ui.contact_address')}}<div>{{__('ui.contact_city')}}</div>
                     </div>
                 </div>
             </div>
