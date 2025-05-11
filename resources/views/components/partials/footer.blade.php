@@ -4,17 +4,16 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="kedit" id="kpg_778191">
-                        <img class="keditFooterLogo lazy"
-                             alt="{{__('ui.logo.image_alt')}}"
-                             title="{{__('ui.logo.image_title')}}"
+                        <img class="keditFooterLogo lazy" alt="{{ __('ui.logo.image_alt') }}"
+                            title="{{ __('ui.logo.image_title') }}"
                             data-src="data/files/screenshot2024-10-10at4.01.51am.png"
-                            src="data/files/screenshot2024-10-10at4.01.51am.png"
-                        >
-                        <div class="keditable mt-4 keditFooterCompany"><strong>{{__('ui.company_name')}}</strong><br>
-                           {{__('ui.contact_address')}}&nbsp;<div>{{__('ui.contact_city')}}<div><a href="tel:610-637-4947">{{__('ui.contact_phone')}}</a>
+                            src="data/files/screenshot2024-10-10at4.01.51am.png">
+                        <div class="keditable mt-4 keditFooterCompany"><strong>{{ __('ui.company_name') }}</strong><br>
+                            {{ __('ui.contact_address') }}&nbsp;<div>{{ __('ui.contact_city') }}<div><a
+                                        href="tel:610-637-4947">{{ __('ui.contact_phone') }}</a>
                                 </div>
                                 <div><span
-                                        style="caret-color: rgba(0, 0, 0, 0.75); color: rgba(0, 0, 0, 0.75);"><u>{{__('ui.contact_email')}}<br></u></span><a
+                                        style="caret-color: rgba(0, 0, 0, 0.75); color: rgba(0, 0, 0, 0.75);"><u>{{ __('ui.contact_email') }}<br></u></span><a
                                         href="tel:610-637-4947"></a></div>
                             </div>
                         </div>
@@ -24,20 +23,24 @@
                     <div class="kedit keditFooterMenu" id="kpg_6683922">
                         <ul class="sitemap">
                             <li>
-                                <h5>{{__('ui.main_menu')}}</h5>
+                                <h5>{{ __('ui.main_menu') }}</h5>
                                 <ul>
 
                                     <li data-id="1"><a href="https://pnimasonryservices.com/"
-                                            title="Home"><span>{{__('ui.nav.home')}}</span></a></li>
+                                            title="Home"><span>{{ __('ui.nav.home') }}</span></a></li>
 
-                                    <li data-id="2"><a href="about" title="About"><span>{{__('ui.nav.about')}}</span></a></li>
+                                    <li data-id="2"><a href="about"
+                                            title="About"><span>{{ __('ui.nav.about') }}</span></a></li>
 
-                                    <li data-id="3"><a href="gallery" title="Gallery"><span>{{__('ui.nav.gallery')}}</span></a></li>
+                                    <li data-id="3"><a href="gallery"
+                                            title="Gallery"><span>{{ __('ui.nav.gallery') }}</span></a></li>
 
-                                    <li data-id="5"><a href="services" title="Services"><span>{{__('ui.nav.services')}}</span></a>
+                                    <li data-id="5"><a href="services"
+                                            title="Services"><span>{{ __('ui.nav.services') }}</span></a>
                                     </li>
 
-                                    <li data-id="4"><a href="contact" title="Contact"><span>{{__('ui.nav.contact')}}</span></a></li>
+                                    <li data-id="4"><a href="contact"
+                                            title="Contact"><span>{{ __('ui.nav.contact') }}</span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -46,9 +49,11 @@
                                 <h5>Legal</h5>
                                 <ul>
 
-                                    <li data-id="1"><a href="terms-of-use" title="Terms of use"><span>{{__('ui.nav.terms')}}</span></a></li>
+                                    <li data-id="1"><a href="terms-of-use"
+                                            title="Terms of use"><span>{{ __('ui.nav.terms') }}</span></a></li>
 
-                                    <li data-id="2"><a href="privacy-policy" title="Privacy Policy"><span>{{__('ui.nav.privacy')}}</span></a></li>
+                                    <li data-id="2"><a href="privacy-policy"
+                                            title="Privacy Policy"><span>{{ __('ui.nav.privacy') }}</span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -62,7 +67,8 @@
                 <div class="row">
                     <div class="col-sm-7">
                         <div class="kedit" id="kpg_6659473">
-                            <div class="keditable keditFooterCopyright">Copyright ©{{ date('Y') }} PNI Masonry Services, All rights reserved.</div>
+                            <div class="keditable keditFooterCopyright">Copyright ©{{ date('Y') }} PNI Masonry
+                                Services, All rights reserved.</div>
                         </div>
                     </div>
                     <div class="col-sm-5">

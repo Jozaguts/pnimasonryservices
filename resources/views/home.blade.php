@@ -2,16 +2,16 @@
 @section('content')
     <main class="WxEditableArea" id="contentArea">
         <div id="contentAreaElement" class="kelement"></div>
-        <section  class="kedit">
+        <section class="kedit">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg">
                         <div class="col-container">
                             <div class="mt-2 mb-2 kimgRatio2">
                                 <img title="PNI masonry services logo " alt="PNI masonry services logo"
-                                    class="img-fluid lazy entered loaded"
-                                     data-src="data/files/brandpniservicescurvas3.png"
-                                    data-ll-status="loaded" src="data/files/brandpniservicescurvas3.png"></div>
+                                    class="img-fluid lazy entered loaded" data-src="data/files/brandpniservicescurvas3.png"
+                                    data-ll-status="loaded" src="data/files/brandpniservicescurvas3.png">
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg">
@@ -23,10 +23,12 @@
                             <div style="background: rgb(239, 183, 26); height: 15px; width: 100px; margin-top: 30px; margin-bottom: 30px;"
                                 data-bg="#efb71a" class="koSeparator koSeparatorBlock koSeparatorLeft"></div>
                             <div style="font-size: 24px;" class="mt-2 mb-2 keditable">
-                            {{__('home.welcome_subtitle')}}
+                                {{ __('home.welcome_subtitle') }}
                             </div>
-                            <div class="koButtons d-flex mt-4 mb-2"><a class="btn btn-color1">{{__('home.btn_get_started')}}</a>
-                                <a class="btn btn-color2">{{__('home.btn_more_info')}}</a></div>
+                            <div class="koButtons d-flex mt-4 mb-2"><a
+                                    class="btn btn-color1">{{ __('home.btn_get_started') }}</a>
+                                <a class="btn btn-color2">{{ __('home.btn_more_info') }}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -96,44 +98,39 @@
 
                 <div class="row justify-content-center text-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 aos-init" data-aos="fade-up">
-                        <h2 class="keditable">{{__('home.creativity.title')}}</h2>
-                        <div class="keditable">{{__('home.creativity.description')}}</div>
+                        <h2 class="keditable">{{ __('home.creativity.title') }}</h2>
+                        <div class="keditable">{{ __('home.creativity.description') }}</div>
                         <div class="px-5">
                             <div class="kimgRatio1 mt-4">
-                                <img class="kimgfilter6 lazy entered loaded"
-                                     alt="{{__('home.creativity.image_alt')}}"
-                                    title="{{__('home.creativity.image_title')}}"
-                                     data-src="data/files/screenshot2024-10-10at4.49.57am.png"
-                                    data-ll-status="loaded" src="data/files/screenshot2024-10-10at4.49.57am.png">
+                                <img class="kimgfilter6 lazy entered loaded" alt="{{ __('home.creativity.image_alt') }}"
+                                    title="{{ __('home.creativity.image_title') }}"
+                                    data-src="data/files/screenshot2024-10-10at4.49.57am.png" data-ll-status="loaded"
+                                    src="data/files/screenshot2024-10-10at4.49.57am.png">
                             </div>
                         </div>
 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 aos-init" data-aos="fade-up">
-                        <h2 class="keditable">{{__('home.comfort.title')}}</h2>
-                        <div class="keditable">{{__('home.comfort.description')}}</div>
+                        <h2 class="keditable">{{ __('home.comfort.title') }}</h2>
+                        <div class="keditable">{{ __('home.comfort.description') }}</div>
                         <div class="px-5">
                             <div class="kimgRatio1 mt-4">
-                                <img class="kimgfilter6 lazy entered loaded"
-                                     alt="{{__('home.comfort.image_alt')}}"
-                                    title="{{__('home.comfort.image_title')}}"
-                                     data-src="data/files/img_2350..jpg"
-                                     data-ll-status="loaded"
-                                    src="data/files/img_2350..jpg">
+                                <img class="kimgfilter6 lazy entered loaded" alt="{{ __('home.comfort.image_alt') }}"
+                                    title="{{ __('home.comfort.image_title') }}" data-src="data/files/img_2350..jpg"
+                                    data-ll-status="loaded" src="data/files/img_2350..jpg">
                             </div>
                         </div>
 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 aos-init" data-aos="fade-up">
-                        <h2 class="keditable">{{__('home.innovation.title')}}</h2>
-                        <div class="keditable">{{__('home.innovation.description')}}</div>
+                        <h2 class="keditable">{{ __('home.innovation.title') }}</h2>
+                        <div class="keditable">{{ __('home.innovation.description') }}</div>
                         <div class="px-5">
                             <div class="kimgRatio1 mt-4">
                                 <img class="kimgfilter6 lazy entered loaded"
-                                     alt="{{__('home.innovation.image_title')}}"
-                                     title="{{__('home.innovation.image_title')}}"
-                                     data-src="data/files/img_2382..jpg" data-ll-status="loaded"
-                                    src="data/files/img_2382..jpg">
+                                    alt="{{ __('home.innovation.image_title') }}"
+                                    title="{{ __('home.innovation.image_title') }}" data-src="data/files/img_2382..jpg"
+                                    data-ll-status="loaded" src="data/files/img_2382..jpg">
                             </div>
                         </div>
                     </div>
@@ -162,10 +159,10 @@
                 <div class="row justify-content-center">
                     <div class="col col-md-8 text-center">
                         <h1 class="keditable aos-init" data-aos="fade-up">
-                            {{__('home.call_to_action_title')}}
+                            {{ __('home.call_to_action_title') }}
                         </h1>
                         <div class="keditable aos-init" data-aos="fade-up" style="font-size: 18px;">
-                            {{__('home.call_to_action_text')}}<br>
+                            {{ __('home.call_to_action_text') }}<br>
                         </div>
                     </div>
                 </div>
@@ -195,17 +192,17 @@
                 <div class="col-12 col-md-auto d-flex align-items-center">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-phone"></i></span>
-                    <div class="keditable me-5 ms-3">{{__('ui.contact_phone')}}<a href="tel:2677337053"><br></a></div>
+                    <div class="keditable me-5 ms-3">{{ __('ui.contact_phone') }}<a href="tel:2677337053"><br></a></div>
                 </div>
                 <div class="col-12 col-md-auto d-flex align-items-center my-4 my-md-0">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-envelope"></i></span>
-                    <div class="keditable me-5 ms-3">{{__('ui.contact_email')}}</div>
+                    <div class="keditable me-5 ms-3">{{ __('ui.contact_email') }}</div>
                 </div>
                 <div class="col-12 col-md-auto d-flex align-items-center">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-map-marker-alt"></i></span>
-                    <div class="keditable ms-3">{{__('ui.contact_address')}}<div>{{__('ui.contact_city')}}</div>
+                    <div class="keditable ms-3">{{ __('ui.contact_address') }}<div>{{ __('ui.contact_city') }}</div>
                     </div>
                 </div>
             </div>
