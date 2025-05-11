@@ -1,6 +1,8 @@
 <?php
 return [
-    'history' => 'En PNI Services LLC, tenemos más de [número] años de experiencia en la industria de la construcción. Nuestro equipo está formado por profesionales apasionados que se comprometen a entregar resultados excepcionales.',
+    'title' => 'ACERCA',
+    'subtitle' => 'Sobre nosotros',
+    'history' => 'En PNI Services LLC, tenemos más de 20 años de experiencia en la industria de la construcción. Nuestro equipo está formado por profesionales apasionados que se comprometen a entregar resultados excepcionales.',
     'mission' => 'Nuestra misión es construir con integridad, calidad y atención al detalle. Valoramos la confianza de nuestros clientes y trabajamos arduamente para ganarla en cada proyecto.',
     'team' => 'Nuestro equipo de expertos en construcción, cada uno con habilidades únicas y un enfoque en la excelencia.',
     'impact_phrases' => [
@@ -9,6 +11,64 @@ return [
         'Un equipo de expertos dedicados a hacer realidad tus proyectos.',
         'Cada proyecto cuenta una historia; déjanos escribir la tuya con calidad y precisión.',
         'Nuestra pasión es tu satisfacción: construimos relaciones de confianza.',
+    ],
+    'cards' => [
+        'waterproof' => [
+            'title' => ' Impermeabilización',
+            'subtitle' => 'Protegemos cada estructura contra filtraciones y humedad.',
+            'phrase' => 'Sellamos tus espacios para que permanezcan secos y seguros.',
+            'image_alt' => 'Personal especializado trabajando en el área exterior de una piscina residencial',
+            'image_title' => 'Impermeabilización de áreas residenciales con enfoque profesional y durable',
+        ],
+        'stamp_concrete' => [
+            'title' => 'Concreto Estampado',
+            'subtitle' => 'Estilo personalizado en concreto decorativo.',
+            'phrase' => 'Imprimimos tu estilo en cada superficie con concreto estampado.',
+            'image_alt' => 'Superficie de concreto estampado con diseño geométrico',
+            'image_title' => 'Concreto estampado con acabado personalizado',
+        ],
+        'concrete' => [
+            'title' => 'Concreto',
+            'subtitle' => 'Resistencia y funcionalidad garantizadas.',
+            'phrase' => 'Nuestro concreto es la base de construcciones duraderas y seguras.',
+            'image_alt' => 'Vaciado de concreto en una base de vivienda',
+            'image_title' => 'Concreto de alta calidad aplicado en obra residencial',
+        ],
+        'block' => [
+            'title' => 'Block',
+            'subtitle' => 'Solidez estructural en cada proyecto.',
+            'phrase' => 'El bloque como base de construcciones firmes y seguras.',
+            'image_alt' => 'Pared en construcción con bloques de concreto',
+            'image_title' => 'Construcción de muro estructural con blocks',
+        ],
+        'stone' => [
+            'title' => 'Piedra',
+            'subtitle' => 'Elegancia natural en cada proyecto.',
+            'phrase' => 'Trabajamos la piedra con precisión para crear estructuras sólidas y estéticamente imponentes.',
+            'image_alt' => 'Muro de piedra natural trabajado artesanalmente',
+            'image_title' => 'Diseño en piedra: elegancia natural en construcción',
+        ],
+        'stucco' => [
+            'title' => 'Stucco',
+            'subtitle' => 'Acabados estéticos con gran durabilidad.',
+            'phrase' => 'Transformamos tus paredes con estuco que embellece y protege.',
+            'image_alt' => 'Aplicación de estuco sobre muro exterior de casa',
+            'image_title' => 'Acabado en estuco para mejorar estética y resistencia',
+        ],
+        'pavers' => [
+            'title' => 'Pavimento',
+            'subtitle' => 'Diseño funcional para exteriores.',
+            'phrase' => 'Creamos caminos y patios que combinan estilo y resistencia.',
+            'image_alt' => 'Camino empedrado decorativo en un jardín',
+            'image_title' => 'Diseño de exteriores con pavers resistentes y elegantes',
+        ],
+        'fences' => [
+            'title' => 'Cercas',
+            'subtitle' => 'Seguridad y estilo en tus espacios exteriores.',
+            'phrase' => 'Instalamos cercas que protegen y embellecen tu propiedad.',
+            'image_alt' => 'Cerca residencial instalada en jardín frontal',
+            'image_title' => 'Cerca decorativa y funcional en zona residencial',
+        ],
     ],
     'testimonials_note' => 'Agrega un espacio de testimoniales de clientes satisfechos para construir confianza. (Pedirle a Israel que hable con los clientes y les pida una recomendación por correo)',
 ];

@@ -1,5 +1,7 @@
 <?php
 return [
+    'title' =>' About',
+    'subtitle' => 'About Us',
     'history' => 'At PNI Services LLC, we have over [number] years of experience in the construction industry. Our team is made up of passionate professionals committed to delivering exceptional results.',
     'mission' => 'Our mission is to build with integrity, quality, and attention to detail. We value the trust of our clients and work hard to earn it with every project.',
     'team' => 'Our team of construction experts, each with unique skills and a focus on excellence.',
@@ -10,5 +12,64 @@ return [
         'Every project tells a story; let us write yours with quality and precision.',
         'Our passion is your satisfaction: we build trusting relationships.',
     ],
+    'cards' => [
+        'waterproof' => [
+            'title' => 'Waterproof',
+            'subtitle' => 'We protect every structure against leaks and moisture.',
+            'phrase' => 'We seal your spaces to keep them dry and secure.',
+            'image_alt' => 'Specialized personnel working on the exterior area of a residential pool',
+            'image_title' => 'Waterproofing residential areas with professional and durable solutions',
+        ],
+        'stamp_concrete' => [
+            'title' => 'Stamped Concrete',
+            'subtitle' => 'Personalized style in decorative concrete.',
+            'phrase' => 'We imprint your style on every surface with stamped concrete.',
+            'image_alt' => 'Stamped concrete surface with geometric design',
+            'image_title' => 'Custom finish in stamped concrete for outdoor surfaces',
+        ],
+        'concrete' => [
+            'title' => 'Concrete',
+            'subtitle' => 'Guaranteed strength and functionality.',
+            'phrase' => 'Our concrete is the foundation of durable and safe constructions.',
+            'image_alt' => 'Concrete pouring for a residential building base',
+            'image_title' => 'High-quality concrete applied in residential construction',
+        ],
+        'block' => [
+            'title' => 'Block',
+            'subtitle' => 'Structural solidity in every project.',
+            'phrase' => 'Blockwork as the base of strong and secure structures.',
+            'image_alt' => 'Wall under construction with concrete blocks',
+            'image_title' => 'Structural wall built with concrete blocks',
+        ],
+        'stone' => [
+            'title' => 'Stone',
+            'subtitle' => 'Natural elegance in every project.',
+            'phrase' => 'We work stone with precision to create solid and visually stunning structures.',
+            'image_alt' => 'Natural stone wall crafted by hand',
+            'image_title' => 'Stone design: natural elegance in construction',
+        ],
+        'stucco' => [
+            'title' => 'Stucco',
+            'subtitle' => 'Aesthetic finishes with high durability.',
+            'phrase' => 'We transform your walls with stucco that beautifies and protects.',
+            'image_alt' => 'Stucco application on an exterior house wall',
+            'image_title' => 'Stucco finish to enhance aesthetics and durability',
+        ],
+        'pavers' => [
+            'title' => 'Pavers',
+            'subtitle' => 'Functional outdoor design.',
+            'phrase' => 'We build pathways and patios that blend style and strength.',
+            'image_alt' => 'Decorative stone path in a garden',
+            'image_title' => 'Exterior design with strong and elegant pavers',
+        ],
+        'fences' => [
+            'title' => 'Fences',
+            'subtitle' => 'Security and style in your outdoor spaces.',
+            'phrase' => 'We install fences that protect and enhance your property.',
+            'image_alt' => 'Residential fence installed in a front yard',
+            'image_title' => 'Decorative and functional fence in a residential area',
+        ],
+    ],
+
     'testimonials_note' => 'Add a space for customer testimonials to build trust. (Ask Israel to request written recommendations from clients by email)',
 ];
