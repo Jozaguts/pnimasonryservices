@@ -16,15 +16,17 @@
                     </div>
                     <div class="col-lg">
                         <div class="col-container">
-                            <h1 class="display-4 mt-2 mb-2 keditable">Welcome to:<br> PNI Services LLC </h1>
+                            <h1 class="display-4 mt-2 mb-2 keditable">
+                                {{ __('home.welcome_title_line1') }}<br>
+                                {{ __('home.welcome_title_line2') }}
+                            </h1>
                             <div style="background: rgb(239, 183, 26); height: 15px; width: 100px; margin-top: 30px; margin-bottom: 30px;"
                                 data-bg="#efb71a" class="koSeparator koSeparatorBlock koSeparatorLeft"></div>
-                            <div style="font-size: 24px;" class="mt-2 mb-2 keditable">Where your vision becomes reality.
-                                With a solid reputation in
-                                Pennsylvania, we are dedicated to delivering high-quality construction
-                                solutions that exceed your expectations.</div>
-                            <div class="koButtons d-flex mt-4 mb-2"><a class="btn btn-color1">Get Started</a><a
-                                    class="btn btn-color2">More info</a></div>
+                            <div style="font-size: 24px;" class="mt-2 mb-2 keditable">
+                            {{__('home.welcome_subtitle')}}
+                            </div>
+                            <div class="koButtons d-flex mt-4 mb-2"><a class="btn btn-color1">{{__('home.btn_get_started')}}</a>
+                                <a class="btn btn-color2">{{__('home.btn_more_info')}}</a></div>
                         </div>
                     </div>
                 </div>
@@ -94,33 +96,45 @@
 
                 <div class="row justify-content-center text-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 aos-init" data-aos="fade-up">
-                        <h2 class="keditable">Creativity</h2>
-                        <div class="keditable">Your vision, our mission: we transform ideas into unique structures.</div>
+                        <h2 class="keditable">{{__('home.creativity.title')}}</h2>
+                        <div class="keditable">{{__('home.creativity.description')}}</div>
                         <div class="px-5">
-                            <div class="kimgRatio1 mt-4"><img class="kimgfilter6 lazy entered loaded" alt=""
-                                    title="" data-src="data/files/screenshot2024-10-10at4.49.57am.png"
-                                    data-ll-status="loaded" src="data/files/screenshot2024-10-10at4.49.57am.png"></div>
+                            <div class="kimgRatio1 mt-4">
+                                <img class="kimgfilter6 lazy entered loaded"
+                                     alt="{{__('home.creativity.image_alt')}}"
+                                    title="{{__('home.creativity.image_title')}}"
+                                     data-src="data/files/screenshot2024-10-10at4.49.57am.png"
+                                    data-ll-status="loaded" src="data/files/screenshot2024-10-10at4.49.57am.png">
+                            </div>
                         </div>
 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 aos-init" data-aos="fade-up">
-                        <h2 class="keditable">Comfort</h2>
-                        <div class="keditable">Over 20 years of experience building projects in Pennsylvania.</div>
+                        <h2 class="keditable">{{__('home.comfort.title')}}</h2>
+                        <div class="keditable">{{__('home.comfort.description')}}</div>
                         <div class="px-5">
-                            <div class="kimgRatio1 mt-4"><img class="kimgfilter6 lazy entered loaded" alt=""
-                                    title="" data-src="data/files/img_2350..jpg" data-ll-status="loaded"
-                                    src="data/files/img_2350..jpg"></div>
+                            <div class="kimgRatio1 mt-4">
+                                <img class="kimgfilter6 lazy entered loaded"
+                                     alt="{{__('home.comfort.image_alt')}}"
+                                    title="{{__('home.comfort.image_title')}}"
+                                     data-src="data/files/img_2350..jpg"
+                                     data-ll-status="loaded"
+                                    src="data/files/img_2350..jpg">
+                            </div>
                         </div>
 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 aos-init" data-aos="fade-up">
-
-                        <h2 class="keditable">Innovation</h2>
-                        <div class="keditable">We build with purpose. · Transform your space, trust the experts</div>
+                        <h2 class="keditable">{{__('home.innovation.title')}}</h2>
+                        <div class="keditable">{{__('home.innovation.description')}}</div>
                         <div class="px-5">
-                            <div class="kimgRatio1 mt-4"><img class="kimgfilter6 lazy entered loaded" alt=""
-                                    title="" data-src="data/files/img_2382..jpg" data-ll-status="loaded"
-                                    src="data/files/img_2382..jpg"></div>
+                            <div class="kimgRatio1 mt-4">
+                                <img class="kimgfilter6 lazy entered loaded"
+                                     alt="{{__('home.innovation.image_title')}}"
+                                     title="{{__('home.innovation.image_title')}}"
+                                     data-src="data/files/img_2382..jpg" data-ll-status="loaded"
+                                    src="data/files/img_2382..jpg">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,10 +161,12 @@
             <div class="container keditLayer">
                 <div class="row justify-content-center">
                     <div class="col col-md-8 text-center">
-                        <h1 class="keditable aos-init" data-aos="fade-up">Explore our services and discover how we can
-                            help you build the project you envision.</h1>
-                        <div class="keditable aos-init" data-aos="fade-up" style="font-size: 18px;">We create individual,
-                            usability home designs with classic and modern eye since 2004.<br></div>
+                        <h1 class="keditable aos-init" data-aos="fade-up">
+                            {{__('home.call_to_action_title')}}
+                        </h1>
+                        <div class="keditable aos-init" data-aos="fade-up" style="font-size: 18px;">
+                            {{__('home.call_to_action_text')}}<br>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -170,7 +186,8 @@
                             </path>
                         </g>
                     </g>
-                </svg></div>
+                </svg>
+            </div>
         </section>
         <section data-pcid="4005.1" id="kpg_614125" class="kedit keditDark kfilter21" data-bgradient="#6d71b7/#25274d/1"
             style="background: linear-gradient(to bottom,#6d71b7,#25274d);">
@@ -178,21 +195,20 @@
                 <div class="col-12 col-md-auto d-flex align-items-center">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-phone"></i></span>
-                    <div class="keditable me-5 ms-3">610-637-4947<a href="tel:2677337053"><br></a></div>
+                    <div class="keditable me-5 ms-3">{{__('home.contact_phone')}}<a href="tel:2677337053"><br></a></div>
                 </div>
                 <div class="col-12 col-md-auto d-flex align-items-center my-4 my-md-0">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-envelope"></i></span>
-                    <div class="keditable me-5 ms-3">resendizhdz@yahoo.com</div>
+                    <div class="keditable me-5 ms-3">{{__('home.contact_email')}}</div>
                 </div>
                 <div class="col-12 col-md-auto d-flex align-items-center">
                     <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
                             class="koIcon fas fa-map-marker-alt"></i></span>
-                    <div class="keditable ms-3">1895 W Skippack Pike<div>Blue Bell. PA 19422</div>
+                    <div class="keditable ms-3">{{__('home.contact_address')}}<div>{{__('home.contact_city')}}</div>
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
 @endsection
