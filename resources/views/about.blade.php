@@ -38,8 +38,8 @@
                                         </div>
                                         <div class="elementor-icon-box-content">
                                             <h3 class="elementor-icon-box-title">
-                                                <a href="tel:{{__('ui.contact_phone')}}">
-                                                    {{__('ui.contact_phone')}}
+                                                <a href="tel:{{ __('ui.contact_phone') }}">
+                                                    {{ __('ui.contact_phone') }}
                                                 </a>
                                             </h3>
                                             <p class="elementor-icon-box-description">
