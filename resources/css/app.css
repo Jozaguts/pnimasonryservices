@@ -79,6 +79,7 @@
     --smoothGradient_blackBottom: linear-gradient(to bottom, var(--smoothGradient));
     --icon-box-icon-margin: 15px;
     --e-global-color-accent: #FFFFFF !important;
+    --bg-primary: #f0b71b;
 }
 
 html {

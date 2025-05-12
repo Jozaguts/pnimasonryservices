@@ -49,62 +49,8 @@
                     <div class="col-lg-9 col-md-7">
                         <!-- BLOG POST CAROUSEL -->
                         <div class="section-content">
-                            <div
-                                class="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b30 owl-loaded owl-drag">
-                                <div class="owl-stage-outer">
-                                    <div class="owl-stage"
-                                        style="transform: translate3d(-2650px, 0px, 0px); transition: all; width: 6185px;">
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item active" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="aon-thum-bx">
+                                <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
                             </div>
                         </div>
                         <div class="wt-box">
@@ -152,7 +98,7 @@
                                             <div class="acod-head">
                                                 <h6 class="acod-title text-uppercase">
                                                     <a data-bs-toggle="collapse" href="javascript:;" data-bs-target="#collapseTwo5" class="collapsed"><i class="fa fa-photo"></i>
-                                                         include 2
+                                                        include 2
                                                         <span class="indicator"><i class="fa fa-plus"></i></span>
                                                     </a>
                                                 </h6>
