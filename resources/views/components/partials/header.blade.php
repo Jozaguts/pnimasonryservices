@@ -12,20 +12,26 @@
             </div>
 
             <ul class="menuHolder topmenu">
-                <li class="{{ request()->is( LaravelLocalization::getCurrentLocale()) ? 'item_active active' : '' }}">
+                <li class="{{ request()->is(LaravelLocalization::getCurrentLocale()) ? 'item_active active' : '' }}">
                     <a href="{{ LaravelLocalization::localizeUrl('/') }}"><span>{{ __('ui.nav.home') }}</span></a>
                 </li>
-                <li  class="{{ request()->is( LaravelLocalization::getCurrentLocale().'/about') ? 'item_active active' : '' }}">
+                <li
+                    class="{{ request()->is(LaravelLocalization::getCurrentLocale() . '/about') ? 'item_active active' : '' }}">
                     <a href="{{ LaravelLocalization::localizeUrl('about') }}"><span>{{ __('ui.nav.about') }}</span></a>
                 </li>
-                <li  class="{{ request()->is( LaravelLocalization::getCurrentLocale().'/services') ? 'item_active active' : '' }}">
-                    <a href="{{ LaravelLocalization::localizeUrl('services') }}"><span>{{ __('ui.nav.services') }}</span></a>
+                <li
+                    class="{{ request()->is(LaravelLocalization::getCurrentLocale() . '/services') ? 'item_active active' : '' }}">
+                    <a
+                        href="{{ LaravelLocalization::localizeUrl('services') }}"><span>{{ __('ui.nav.services') }}</span></a>
                 </li>
-                <li  class="{{ request()->is( LaravelLocalization::getCurrentLocale().'/gallery') ? 'item_active active' : '' }}">
-                    <a href="{{ LaravelLocalization::localizeUrl('gallery') }}"><span>{{ __('ui.nav.gallery') }}</span></a>
+                <li
+                    class="{{ request()->is(LaravelLocalization::getCurrentLocale() . '/gallery') ? 'item_active active' : '' }}">
+                    <a
+                        href="{{ LaravelLocalization::localizeUrl('gallery') }}"><span>{{ __('ui.nav.gallery') }}</span></a>
                 </li>
                 <li class="accent1 accents_start">
-                    <a href="{{ LaravelLocalization::localizeUrl('contact') }}"><span>{{ __('ui.nav.contact') }}</span></a>
+                    <a
+                        href="{{ LaravelLocalization::localizeUrl('contact') }}"><span>{{ __('ui.nav.contact') }}</span></a>
                 </li>
             </ul>
         </div>
