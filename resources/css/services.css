@@ -1,0 +1,518 @@
+.wt-nav-pills li:hover a {
+    background-color: #f0b71b;
+    color: #fff;
+}
+.wt-nav-pills li a {
+    color: #777777;
+    padding: 10px;
+    display: block;
+}
+.nav-pills  li:hover a {
+    background-color: #f0b71b;
+}
+.wt-nav.wt-nav-pills{
+    padding-left: 0;
+ }
+.wt-nav-block {
+    border: 1px solid #ddd;
+}
+.m-b30 {
+    margin-bottom: 30px;
+}
+.wt-nav-title {
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.wt-nav {
+    list-style: none;
+    margin: 0px;
+}
+.wt-nav-pills li {
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+.wt-nav-pills li a {
+    color: #777777;
+    padding: 10px;
+    display: block;
+}
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(#fff, var(#fff)) !important;
+}
+.owl-btn-vertical-center .owl-nav {
+    margin: 0px;
+}
+.owl-carousel .owl-nav {
+    margin-top: 40px;
+    text-align: center;
+}
+.owl-dots-bottom-left .owl-dots, .owl-dots-bottom-right .owl-dots, .owl-dots-bottom-center .owl-dots {
+    bottom: 0;
+    padding: 15px 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    background: #1a1a1a;
+    border: 1px solid #fff;
+    display: block;
+    transition: opacity 200ms ease;
+}
+.owl-carousel .owl-dots {
+    text-align:center;
+    margin-top:20px;
+}
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+}
+.owl-carousel .owl-dots .owl-dot span {
+    width:12px;
+    height:12px;
+    margin:5px 7px;
+    background: #1a1a1a;
+    border:1px solid #fff;
+    display: block;
+    transition: opacity 200ms ease;
+}
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #f0b71b
+}
+/*======================================
+20. SLIDER
+======================================*/
+/*-------------------------------------
+	1. owl slider
+-------------------------------------*/
+/*-------------------------------------
+	1.1  next pre btn
+-------------------------------------*/
+.owl-prev, .owl-next {
+    background-color: #000 !important;
+    color: #ffffff !important;
+    padding: 8px 10px;
+    width: 28px;
+    height: 35px;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-nav {
+    margin-top:40px;
+    text-align: center;
+}
+.owl-carousel .owl-nav .disabled {
+    opacity: .5;
+    cursor: default
+}
+/*-------------------------------------
+	1.2 owl dots button
+-------------------------------------*/
+.owl-carousel .owl-dots {
+    text-align:center;
+    margin-top:20px;
+}
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+}
+.owl-carousel .owl-dots .owl-dot span {
+    width:12px;
+    height:12px;
+    margin:5px 7px;
+    background: #1a1a1a;
+    border:1px solid #fff;
+    display: block;
+    transition: opacity 200ms ease;
+}
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #f0b71b
+}
+/*-------------------------------------
+	1.3 owl button top to center
+-------------------------------------*/
+.owl-btn-top-center .owl-nav,
+.owl-btn-top-left .owl-nav,
+.owl-btn-top-right .owl-nav {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    margin:0;
+}
+.owl-btn-top-center .owl-stage-outer,
+.owl-btn-top-left .owl-stage-outer,
+.owl-btn-top-right .owl-stage-outer {
+    padding-top:60px;
+}
+.owl-btn-top-center .owl-nav {
+    text-align:center;
+}
+/*-------------------------------------
+	1.4 owl button top to left
+-------------------------------------*/
+.owl-btn-top-left .owl-nav {
+    text-align:left;
+}
+/*-------------------------------------
+	1.5 owl button top to right
+-------------------------------------*/
+.owl-btn-top-right .owl-nav {
+    text-align:right;
+}
+/*-------------------------------------
+	1.6 owl button bottom to center [it is default position ]
+-------------------------------------*/
+.owl-btn-bottom-center .owl-nav {
+    text-align:center;
+}
+/*-------------------------------------
+	1.7 owl button bottom to left
+-------------------------------------*/
+.owl-btn-bottom-left .owl-nav {
+    text-align:left;
+}
+/*-------------------------------------
+	1.8 owl button bottom to right
+-------------------------------------*/
+.owl-btn-bottom-right .owl-nav {
+    text-align:right;
+}
+/*-------------------------------------
+	1.9 owl button vertical to center
+-------------------------------------*/
+.owl-btn-vertical-center .owl-nav {
+    margin:0px;
+}
+.owl-btn-vertical-center .owl-nav .owl-prev,
+.owl-btn-vertical-center .owl-nav .owl-next {
+    position:absolute;
+    top:50%;
+    margin:-15px 0;
+}
+.owl-btn-vertical-center .owl-nav .owl-prev {
+    left:0;
+}
+.owl-btn-vertical-center .owl-nav .owl-next {
+    right:0;
+}
+/*-------------------------------------
+	1.10 owl button show on hover
+-------------------------------------*/
+.owl-btn-hover .owl-nav {
+    opacity:0;
+}
+.owl-btn-hover:hover .owl-nav {
+    opacity:1;
+}
+.owl-carousel .owl-item img{
+    transform-style: inherit;
+}
+/*-------------------------------------
+    1.11 owl slider button
+-------------------------------------*/
+.owl-prev,
+.owl-next {
+    background-color: #212121;
+    border-color: #212121;
+    color: #ffffff;
+    padding:8px 10px;
+    font-size: 13px;
+    display: inline-block;
+    cursor: pointer;
+    border-width:1px;
+    border-style:solid;
+    border-radius:0;
+    opacity:0.5;
+}
+.owl-prev {
+    margin-right:5px;
+}
+.owl-next {
+    margin-left:5px;
+}
+.owl-prev:hover,
+.owl-prev:active,
+.owl-prev:focus,
+.owl-next:hover,
+.owl-next:active,
+.owl-next:focus {
+    background-color: #212121;
+    border-color: #212121;
+    color: #ffffff;
+    opacity:0.9;
+}
+/*-------------------------------------
+	1.12 owl dots nav position
+-------------------------------------*/
+.owl-dots-bottom-left .owl-dots,
+.owl-dots-bottom-right .owl-dots ,
+.owl-dots-bottom-center .owl-dots{
+    bottom:0px;
+    padding:15px 20px;
+    position: absolute;
+    width:100%;
+}
+.owl-dots-bottom-left .owl-dots {
+    text-align: left;
+}
+.owl-dots-bottom-right .owl-dots {
+    text-align: right;
+}
+
+.widget {
+    margin-bottom: 40px;
+}
+.widget_getintuch {
+    padding-top: 10px;
+}
+.widget .widget-title, .widget .widget-title-two, .widget .post-title {
+    text-transform: none;
+}
+
+.widget-title, .widget-title-two, .widget-title-three {
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.widget-title {
+    margin: 0 0 25px;
+}
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+.widget-title:before {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #2d3239;
+    margin-bottom: 10px;
+}
+.widget-title:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 18px;
+    height: 3px;
+    width: 70px;
+    margin: 10px 0;
+    background-color: #f0b71b;
+}
+.widget_getintuch ul, .widget_services ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.widget_getintuch li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+.widget_getintuch i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    text-align: center;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f0b71b;
+    color: #fff;
+}
+.widget_getintuch b, .widget_getintuch strong {
+    display: block;
+    text-transform: uppercase;
+}
+strong {
+    font-weight: 600;
+}
+.wt-box, .wt-info, .wt-tilte, .wt-tilte-inner {
+    position: relative;
+}
+.wt-box > h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+}
+.wt-box > p {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.p-t30 {
+    padding-top: 30px;
+}
+.section-head {
+    margin-bottom: 50px;
+}
+.section-head h1, .section-head h2, .section-head h3 {
+    margin-top: 0;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.wt-separator-outer {
+    overflow: hidden;
+}
+.wt-separator.style-square {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #2d3239;
+}
+.wt-separator {
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    position: relative;
+}
+.wt-separator.style-square .separator-left, .wt-separator.style-square .separator-right {
+    height: 3px;
+}
+.wt-separator .separator-left {
+    left: -80px;
+}
+.wt-separator .separator-left, .wt-separator .separator-right {
+    position: absolute;
+    top: 50%;
+    width: 70px;
+    height: 2px;
+    margin-top: -1px;
+}
+.wt-separator.style-square .separator-left, .wt-separator.style-square .separator-right {
+    height: 3px;
+}
+.wt-separator .separator-right {
+    right: -80px;
+}
+.wt-separator .separator-left, .wt-separator .separator-right {
+    position: absolute;
+    top: 50%;
+    width: 70px;
+    height: 2px;
+    margin-top: -1px;
+}
+.site-bg-primary{
+    background-color: #f0b71b;
+}
+.p-b30 {
+    padding-bottom: 30px;
+}
+/* 2. Accordion outline */
+.acc-outline .acod-title a {
+    border:1px solid #ddd;
+}
+.acc-outline.acc-has-bg .acod-head a,
+.acc-outline.acc-has-bg .acod-head a:hover,
+.acc-outline.acc-has-bg .acod-head a:active,
+.acc-outline.acc-has-bg .acod-head a:focus,
+.acc-outline.acc-has-bg .acod-head .indicator,
+.acc-outline.acc-has-bg .acod-body {
+    color:#fff;
+}
+/* 3. Accordion bg gray */
+.acc-bg-gray a {
+    background-color:#fff;
+}
+.acc-bg-gray .acod-head .indicator {
+    color:#777;
+}
+.acc-bg-gray.acc-has-bg .acod-body{
+    color:#fff;
+}
+.acc-bg-gray a {
+    background-color: #F5F5F5;
+}
+.acod-head a, .acod-head a:hover, .acod-head a:active, .acod-head a:focus {
+    color: #3d474a;
+}
+.acod-head a {
+    display: block;
+    padding: 15px 40px 15px 15px;
+}
+.acod-title a {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.acc-bg-gray a {
+    background-color: #F5F5F5;
+}
+.acod-head a, .acod-head a:hover, .acod-head a:active, .acod-head a:focus {
+    color: #3d474a;
+}
+.acod-head a {
+    display: block;
+    padding: 15px 40px 15px 15px;
+}
+.acod-title a {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.wt-accordion .wt-panel {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.acc-bg-gray .acod-head .indicator {
+    color: #777;
+}
+.acod-head .indicator {
+    padding: 15px;
+    color: #ababab;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.acod-head.acc-actives .indicator .fa, .acod-head [aria-expanded="true"] .indicator .fa {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.acod-head .indicator .fa, .acod-head.acc-actives .indicator .fa {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt-icon-box-xl, .wt-icon-box-lg, .wt-icon-box-md, .wt-icon-box-sm, .wt-icon-box-xs, .share-social-bx li, .indicator, .profile-menu ul li, .staff-member .member-done, .how-wt-work .wt-box .shadow-bx img, .how-wt-work .wt-box .step-no-bx, .wt-info-has, .wt-we-find .wt-box, .navbar-toggle, .logo-header, .header-nav .nav > li > a, .extra-nav, .acod-head .indicator .fa {
+    transition: all 0.2s linear;
+}
+.acod-head .fa {
+    margin-right: 5px;
+}
