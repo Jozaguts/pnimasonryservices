@@ -10,4 +10,10 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    server: {
+        host: 'pnimasonryservices.local',
+        hmr: {
+            host: 'pnimasonryservices.local',
+        },
+    },
 });

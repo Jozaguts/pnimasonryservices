@@ -2,7 +2,9 @@
 return [
     'title' => 'ACERCA',
     'subtitle' => 'Sobre nosotros',
-    'history' => 'En PNI Services LLC, tenemos más de 20 años de experiencia en la industria de la construcción. Nuestro equipo está formado por profesionales apasionados que se comprometen a entregar resultados excepcionales.',
+    'history_1' => 'En PNI Services LLC, contamos con más de 20 años de experiencia en la industria de la construcción. Fundamos la empresa con la visión de ofrecer servicios de construcción confiables, profesionales y de alta calidad en toda Pennsylvania.',
+    'history_2' => 'Sabemos que la durabilidad de una obra no solo depende del material, sino también de la calidad del trabajo. Por eso, cada proyecto que realizamos refleja nuestro compromiso con la excelencia.',
+    'history_3' => 'Nuestro equipo está conformado por expertos apasionados por lo que hacen. Ya sea que necesites una nueva construcción, remodelación o mantenimiento, puedes confiar en nosotros para obtener resultados duraderos y funcionales.',
     'mission' => 'Nuestra misión es construir con integridad, calidad y atención al detalle. Valoramos la confianza de nuestros clientes y trabajamos arduamente para ganarla en cada proyecto.',
     'team' => 'Nuestro equipo de expertos en construcción, cada uno con habilidades únicas y un enfoque en la excelencia.',
     'impact_phrases' => [

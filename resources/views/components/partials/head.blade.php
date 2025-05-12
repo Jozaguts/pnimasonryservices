@@ -15,18 +15,16 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin="">
 
     <base href="/">
+    @vite('resources/css/app.css')
     <link rel="shortcut icon" href="//pnimasonryservices.com/editor_images/favicon.png">
     <link rel="apple-touch-icon" href="//pnimasonryservices.com/editor_images/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js" type="text/javascript"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//pnimasonryservices.com/inc/live.css?ver=4.6.1" type="text/css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Rubik:200,400,700&amp;subset=latin-ext&amp;display=swap"
-        rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]>
+    <link href="//fonts.googleapis.com/css?family=Rubik:200,400,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet" type="text/css">
+    {{-- [if lt IE 9]--}}
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-
+    {{-- [endif]--}}
     <style>
         :root {
             --ui-color-accent: #179BD7;

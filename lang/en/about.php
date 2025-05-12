@@ -2,7 +2,9 @@
 return [
     'title' =>' About',
     'subtitle' => 'About Us',
-    'history' => 'At PNI Services LLC, we have over [number] years of experience in the construction industry. Our team is made up of passionate professionals committed to delivering exceptional results.',
+    'history_1' => 'At PNI Services LLC, we bring over 20 years of experience in the construction industry. We founded our company with a mission to provide reliable, high-quality building services throughout Pennsylvania.',
+    'history_2' => 'We understand that lasting structures require more than just good materials — they demand expert craftsmanship. That’s why we focus on precision, durability, and client satisfaction in every project.',
+    'history_3' => 'Our team is made up of passionate professionals dedicated to excellence. Whether you need new construction, remodeling, or maintenance, you can count on us for dependable and long-lasting results.',
     'mission' => 'Our mission is to build with integrity, quality, and attention to detail. We value the trust of our clients and work hard to earn it with every project.',
     'team' => 'Our team of construction experts, each with unique skills and a focus on excellence.',
     'impact_phrases' => [

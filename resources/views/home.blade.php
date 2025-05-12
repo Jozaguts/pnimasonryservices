@@ -27,7 +27,8 @@
                             </div>
                             <div class="koButtons d-flex mt-4 mb-2"><a
                                     class="btn btn-color1">{{ __('home.btn_get_started') }}</a>
-                                <a class="btn btn-color2">{{ __('home.btn_more_info') }}</a>
+                                <a class="btn btn-color2"
+                                    href="{{ LaravelLocalization::localizeUrl('about') }}">{{ __('home.btn_more_info') }}</a>
                             </div>
                         </div>
                     </div>
