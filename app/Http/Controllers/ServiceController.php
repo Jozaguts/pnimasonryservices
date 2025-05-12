@@ -11,10 +11,6 @@ class ServiceController extends Controller
         if (!is_array($data)) {
             abort(404);
         }
-
-        return view('services.show', [
-            'translatedName' => $data['title'],
-            'description' => $data['description'],
-        ]);
+        return view('services.show',$data);
     }
 }
