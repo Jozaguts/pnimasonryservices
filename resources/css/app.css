@@ -7870,3 +7870,63 @@ section.keditRounded:hover {
     position: absolute;
     transform: translateX(-50%);
 }
+.loading-area{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:9999;
+    overflow:hidden;
+}
+.loading-box{
+    width:100%;
+    height:100%;
+    background-color:#FFF;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:1;
+    z-index:9999;
+}
+.loading-pic{
+    width:100%;
+    position:absolute;
+    top:50%;
+    z-index:99999;
+    text-align:center;
+    transform: translateY(-50%);
+}
+/*18.2 loading - 2*/
+.loading-cover,
+.loading-srh-bar,
+.loading-map {
+    background:rgba(255,255,255,0.8);
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+.loading-cover .fa-spinner,
+.loading-srh-bar .fa-spinner,
+.loading-map .fa-spinner{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-10px;
+    font-size:25px;
+    color:#333;
+}
+.wt-banner-outer {
+    margin-bottom:0;
+}
+.wt-success-top,
+.wt-error-top {
+    margin-bottom:0;
+}
+.alert-bx.alert-info {
+    padding:15px;
+    border:1px solid #bce8f1;
+}

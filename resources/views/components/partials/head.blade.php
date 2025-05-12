@@ -15,7 +15,7 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin="">
 
     <base href="/">
-    @vite('resources/css/app.css')
+    @vite(['resources/css/loader.css','resources/css/app.css'])
     <link rel="shortcut icon" href="//pnimasonryservices.com/editor_images/favicon.png">
     <link rel="apple-touch-icon" href="//pnimasonryservices.com/editor_images/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js" type="text/javascript"></script>

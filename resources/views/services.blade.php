@@ -107,77 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wt-box">
-                            <h2>General Contruction</h2>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
-                            </p>
 
-                            <p>
-                                Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
-                            </p>
-                        </div>
-                        <div class="wt-box">
-                            <div class="p-t30">
-                                <!-- TITLE START -->
-                                <div class="section-head">
-
-                                    <h2 class="text-uppercase">What is included</h2>
-                                    <div class="wt-separator-outer">
-                                        <div class="wt-separator style-square">
-                                            <span class="separator-left site-bg-primary"></span>
-                                            <span class="separator-right site-bg-primary"></span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- TITLE END -->
-                                <!-- ACCORDIAN  BACKGROUND GRAY -->
-                                <div class="section-content p-b30">
-                                    <div class="wt-accordion acc-bg-gray" id="accordion5">
-                                        <div class="panel wt-panel">
-                                            <div class="acod-head acc-actives">
-                                                <h6 class="acod-title text-uppercase">
-                                                    <a data-bs-toggle="collapse" href="javascript:;" data-bs-target="#collapseOne5"><i class="fa fa-globe"></i>
-                                                        include 1
-                                                        <span class="indicator"><i class="fa fa-plus"></i></span>
-                                                    </a>
-                                                </h6>
-                                            </div>
-                                            <div id="collapseOne5" class="acod-body collapse show" data-bs-parent="#accordion5">
-                                                <div class="acod-content p-tb15">Web design lorem Ipsum is simply dummy text of the printing and typesetting and  industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type are specimen book. It has survived not only five centuries, but also the leap into more then electronic typesetting, remaining essentially unchanged. It was popularised sheets containing lorem Ipsum passagese.</div>
-                                            </div>
-                                        </div>
-                                        <div class="panel wt-panel">
-                                            <div class="acod-head">
-                                                <h6 class="acod-title text-uppercase">
-                                                    <a data-bs-toggle="collapse" href="javascript:;" data-bs-target="#collapseTwo5" class="collapsed"><i class="fa fa-photo"></i>
-                                                         include 2
-                                                        <span class="indicator"><i class="fa fa-plus"></i></span>
-                                                    </a>
-                                                </h6>
-                                            </div>
-                                            <div id="collapseTwo5" class="acod-body collapse" data-bs-parent="#accordion5">
-                                                <div class="acod-content p-tb15">Graphic design lorem Ipsum is simply dummy text of the printing and typesetting is industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type are specimen book. It has survived not only five centuries, but also the leap into electro nic typesetting, remaining essentially unchanged. It was popularised sheets containing lorem Ipsum passagese.</div>
-                                            </div>
-                                        </div>
-                                        <div class="panel wt-panel">
-                                            <div class="acod-head">
-                                                <h6 class="acod-title text-uppercase">
-                                                    <a data-bs-toggle="collapse" href="javascript:;" data-bs-target="#collapseThree5" class="collapsed"><i class="fa fa-cog"></i>
-                                                        include 3
-                                                        <span class="indicator"><i class="fa fa-plus"></i></span>
-                                                    </a>
-                                                </h6>
-                                            </div>
-                                            <div id="collapseThree5" class="acod-body collapse" data-bs-parent="#accordion5">
-                                                <div class="acod-content p-tb15">Developement lorem Ipsum is simply dummy text of the printing and typesetting is industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type are specimen book. It has survived not only five centuries, but also the leap into electro nic typesetting, remaining essentially unchanged. It was popularised sheets containing lorem Ipsum passagese.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

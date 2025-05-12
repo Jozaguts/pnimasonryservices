@@ -1,7 +1,6 @@
 @push('scripts')
     <script data-id="websiteLoading">
         $(document).ready(function() {
-
             $('#websiteLoading').removeClass('isLoading-1');
             setTimeout(function() {
 
@@ -59,7 +58,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
     <script async src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"
         onload="magnificPopupInit()"></script>
-    <script></script>
     <script>
         var jQueryChecker_interval, jQueryChecker_count = 0;
         $(function() {
@@ -114,5 +112,12 @@
         window.addEventListener('load', function() {
             ddlevelsmenu.setup("1", "topbar", "0", "0");
         });
+        function page_loader() {
+            $('.loading-area').fadeOut(2000)
+        };
+        $(window).on('load', function () {
+            page_loader()
+        });
+
     </script>
 @endpush
