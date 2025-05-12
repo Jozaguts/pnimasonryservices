@@ -9,6 +9,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     Route::get('/about', function () {
         return view('about');
     });
+    Route::get('/services/{service}', [\App\Http\Controllers\ServiceController::class, 'show']);
     Route::get('/services', function () {
         return view('services');
     });
