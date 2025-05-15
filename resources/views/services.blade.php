@@ -40,8 +40,8 @@
                             <h4 class="widget-title">Contact us</h4>
                             <ul>
                                 <li><i class="fa fa-map-marker"></i><strong>Address</strong> {{__('ui.contact_address')}}</li>
-                                <li><i class="fa fa-phone"></i><strong>phone</strong>{{__('ui.contact_phone')}} (help 24/7 )</li>
-                                <li><i class="fa fa-envelope"></i><strong>email</strong>{{__('ui.contact_email')}}</li>
+                                <li><i class="fa fa-phone"></i><strong>phone</strong><a href="tel:+1{{__('ui.contact_phone')}}">{{__('ui.contact_phone')}}</a> (help 24/7 )</li>
+                                <li><i class="fa fa-envelope"></i><strong>email</strong><a href="mailto:{{__('ui.contact_email')}}">{{__('ui.contact_email')}}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -54,52 +54,52 @@
                                 <div class="owl-stage-outer">
                                     <div class="owl-stage"
                                         style="transform: translate3d(-2650px, 0px, 0px); transition: all; width: 6185px;">
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item">
                                             <div class="item">
                                                 <div class="aon-thum-bx">
                                                     <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item " >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
+                                                    <img src="data/images/about.webp" alt="" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item " >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
+                                                    <img src="data/images/stone_2.jpg" alt="" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item active" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
+                                                    <img src="{{asset('data/images/home4.jpg')}}" alt="" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
+                                                    <img src="{{asset('data/images/waterprof.jpg')}}" alt="" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
+                                                    <img src="{{asset('data/images/stucco.webp')}}" alt="" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="owl-item cloned" style="width: 853.5px; margin-right: 30px;">
+                                        <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2382..jpg" alt="" style="max-height: 500px">
+                                                    <img src="{{asset('data/images/pavers.jpg')}}" alt="" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
