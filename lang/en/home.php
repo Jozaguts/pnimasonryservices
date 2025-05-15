@@ -27,4 +27,26 @@ return [
 
     'call_to_action_title' => 'Explore our services and discover how we can help you build the project you envision.',
     'call_to_action_text' => 'We create individual, functional home designs with a classic and modern approach since 2004.',
+    'images' => [
+        'home_1' => [
+            'alt' => 'Entrance with gray paver steps, metal railing, and brick wall, with greenery in the background.',
+            'title' => 'Paver steps and railing on brick wall.',
+        ],
+        'home_2' => [
+            'alt' => 'Gray and beige paver steps and walkway with decorative stone edging.',
+            'title' => 'Paver steps with rock edging.',
+        ],
+        'home_3' => [
+            'alt' => 'Outdoor seating area with retaining wall blocks and paver steps.',
+            'title' => 'Block wall and paver steps.',
+        ],
+        'home_4' => [
+            'alt' => 'Entrance with paver steps and metal railing atop brick wall.',
+            'title' => 'Paver steps with brick wall railing.',
+        ],
+        'home_5' => [
+            'alt' => 'Paver steps and walkway with decorative stone edging.',
+            'title' => 'Paver steps with rock edging.',
+        ],
+    ]
 ];

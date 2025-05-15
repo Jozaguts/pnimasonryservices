@@ -52,37 +52,67 @@
                 <div class="d-none col d-md-flex align-items-center"
                      style="transform:translateY(-1.5em) scale(1.4) rotate(2deg)">
 
-                    <div class="kimgRatio1"><img class="kimgfilter3 lazy entered loaded" alt="" title=""
-                                                 data-src="data/files/img_2364..jpg" data-ll-status="loaded" src="data/files/img_2364..jpg">
+                    <div class="kimgRatio1">
+                        <img class="kimgfilter3 lazy entered loaded"
+                         alt="{{__('home.images.home_1.alt')}}"
+                         title="{{__('home.images.home_1.title')}}"
+                         data-ll-status="loaded"
+                         data-src="{{asset('data/images/about.webp')}}"
+                         src="{{asset('data/images/about.webp')}}"
+                        >
                     </div>
 
                 </div>
                 <div class="col d-flex align-items-center" style="transform:translateY(1em) scale(1.4) rotate(-5deg)">
 
-                    <div class="kimgRatio1"><img class="kimgfilter3 lazy entered loaded" alt="" title=""
-                                                 data-src="data/files/img_2367..jpg" data-ll-status="loaded" src="data/files/img_2367..jpg">
+                    <div class="kimgRatio1">
+                        <img class="kimgfilter3 lazy entered loaded"
+                             alt="{{__('home.images.home_2.alt')}}"
+                             title="{{__('home.images.home_2.title')}}"
+                             data-ll-status="loaded"
+                             data-src="{{asset('data/images/home_2.jpg')}}"
+                             src="{{asset('data/images/home_2.jpg')}}"
+                        >
+
                     </div>
 
                 </div>
                 <div class="col d-flex align-items-center" style="transform:translateY(-2em) scale(1.3) rotate(3deg)">
-
-                    <div class="kimgRatio1"><img class="kimgfilter3 lazy entered loaded" alt="" title=""
-                                                 data-src="data/files/screenshot2024-10-10at4.40.37am.png" data-ll-status="loaded"
-                                                 src="data/files/screenshot2024-10-10at4.40.37am.png"></div>
+                    <div class="kimgRatio1">
+                        <img class="kimgfilter3 lazy entered loaded"
+                             alt="{{__('home.images.home_3.alt')}}"
+                             title="{{__('home.images.home_3.title')}}"
+                             data-ll-status="loaded"
+                             data-src="{{asset('data/files/img_2367..jpg')}}"
+                             src="{{asset('data/files/img_2367..jpg')}}"
+                        >
+                    </div>
 
                 </div>
                 <div class="col d-flex align-items-center" style="transform:translateY(1.5em) scale(1.3) rotate(-5deg)">
 
-                    <div class="kimgRatio1"><img class="kimgfilter3 lazy entered loaded" alt="" title=""
-                                                 data-src="data/files/img_2380..jpg" data-ll-status="loaded" src="data/files/img_2380..jpg">
+                    <div class="kimgRatio1">
+                        <img class="kimgfilter3 lazy entered loaded"
+                             alt="{{__('home.images.home_4.alt')}}"
+                             title="{{__('home.images.home_4.title')}}"
+                             data-ll-status="loaded"
+                             data-src="{{asset('data/images/home4.jpg')}}"
+                             src="{{asset('data/images/home4.jpg')}}"
+                        >
                     </div>
 
                 </div>
                 <div class="d-none col d-md-flex align-items-center"
                      style="transform:translateY(-1em) scale(1.3) rotate(5deg)">
 
-                    <div class="kimgRatio1"><img class="kimgfilter3 lazy entered loaded" alt="" title=""
-                                                 data-src="data/files/img_2371..jpg" data-ll-status="loaded" src="data/files/img_2371..jpg">
+                    <div class="kimgRatio1">
+                        <img class="kimgfilter3 lazy entered loaded"
+                             alt="{{__('home.images.home_5.alt')}}"
+                             title="{{__('home.images.home_5.title')}}"
+                             data-ll-status="loaded"
+                             data-src="{{asset('data/images/pavers.jpg')}}"
+                             src="{{asset('data/images/pavers.jpg')}}"
+                        >
                     </div>
 
                 </div>
@@ -129,8 +159,9 @@
                         <div class="kimgRatio1 mt-4">
                             <img class="kimgfilter6 lazy entered loaded"
                                  alt="{{ __('home.innovation.image_title') }}"
-                                 title="{{ __('home.innovation.image_title') }}" data-src="data/files/img_2382..jpg"
-                                 data-ll-status="loaded" src="data/files/img_2382..jpg">
+                                 title="{{ __('home.innovation.image_title') }}"
+                                 data-src="{{asset('data/images/stamp_concrete.jpg')}}"
+                                 data-ll-status="loaded" src="{{asset('data/images/stamp_concrete.jpg')}}">
                         </div>
                     </div>
                 </div>
@@ -138,8 +169,7 @@
         </div>
 
         <div class="keditLayer_footer h-auto" data-color="rgb(255, 255, 255)" data-style="7" data-height="h-auto"
-             style="fill:rgb(255, 255, 255);color:rgb(255, 255, 255);"><svg width="100%" height="100%"
-                                                                            viewBox="0 0 3112 117" preserveAspectRatio="none">
+             style="fill:rgb(255, 255, 255);color:rgb(255, 255, 255);"><svg width="100%" height="100%" viewBox="0 0 3112 117" preserveAspectRatio="none">
                 <g transform="matrix(0.997611, 0, 0, 0.926843, -0.999626, -425.946198)">
                     <g transform="matrix(1.05523,0,0,0.197876,-141.168,242.24)">
                         <path
