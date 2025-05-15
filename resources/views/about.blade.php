@@ -13,8 +13,10 @@
                         style="background: var(--color1); width: 100px;"></div>
                     <div class="row">
                         <div class="col-md-6 col-lg-6 col-12 mx-auto " style="width: 400px; height: 600px;">
-                            <img class="kimgfilter3 lazy entered loaded" alt="" data-ll-status="loaded"
-                                src="https://placehold.co/400x600">
+                            <img class="kimgfilter3 lazy entered loaded"
+                                 alt=""
+                                 data-ll-status="loaded"
+                                src="{{asset('data/images/about.webp')}}">
                         </div>
                         <div class="col-md-6 col-lg-6 col-12 pt-4">
                             <div class="keditable aos-init aos-animate" data-aos="fade-in" style="text-align: justify;">

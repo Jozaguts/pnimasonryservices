@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
-
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="{{ asset('favicon.ico') }}">
     <title>PNI Masonry Services</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
@@ -16,9 +17,9 @@
 
     <base href="/">
     @vite(['resources/css/loader.css','resources/css/app.css'])
-    <link rel="shortcut icon" href="//pnimasonryservices.com/editor_images/favicon.png">
-    <link rel="apple-touch-icon" href="//pnimasonryservices.com/editor_images/favicon.png">
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js" type="text/javascript"></script>
+    <link href="{{asset('inc-live.css')}}" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Rubik:200,400,700&amp;subset=latin-ext&amp;display=swap"
         rel="stylesheet" type="text/css">
