@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifications\ContactFormNotification;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -16,7 +17,8 @@ class ContactController extends Controller
             'message' => 'required|string|max:5000',
         ]);
 
-        logger('Contact form submitted', [$validatedData]);
+        \Notification::route('mail', config('mail.from.address'))
+            ->notify(new ContactFormNotification($validatedData));
         return redirect()->back()->with('success', __('contact.form_fields.submit'));
 
     }
