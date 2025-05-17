@@ -7931,3 +7931,6 @@ section.keditRounded:hover {
     padding:15px;
     border:1px solid #bce8f1;
 }
+.cursor-pointer{
+    cursor:pointer;
+}
