@@ -26,6 +26,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             [
                 'path'=> '/data/images/gallery/5/3.jpg', 'alt' => 'gallery', 'id' => 5,
             ],
+            [
+                'path'=> '/data/images/gallery/6/1.jpg', 'alt' => 'gallery', 'id' => 6,
+            ],
         ]];
 
         return view('gallery', $data);

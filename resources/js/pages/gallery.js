@@ -347,7 +347,191 @@ const galleries = {
             alt: 'test image 1'
         },
 
-    ]
+    ],
+    5:[
+        {
+            src: '/data/images/gallery/5/1.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/2.jpg',
+            w: 900,
+            h: 1200,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/3.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/4.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/5.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/6.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/7.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/5/8.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+    ],
+    6:[
+        {
+            src: '/data/images/gallery/6/1.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/2.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/3.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/4.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/5.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/6.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/7.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/8.jpg',
+            w: 900,
+            h: 506,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/9.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/10.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/11.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/12.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/13.jpg',
+            w: 900,
+            h: 1200,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/14.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/15.jpg',
+            w: 900,
+            h: 1200,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/16.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/17.jpg',
+            w: 900,
+            h: 1200,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/18.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/19.jpg',
+            w: 900,
+            h: 1200,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/20.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/21.jpg',
+            w: 900,
+            h: 1200,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/6/22.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+    ],
 }
 const options = {
     dataSource: [],
