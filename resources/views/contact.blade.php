@@ -8,6 +8,11 @@
         <div id="contentAreaElement" class="kelement"></div>
         <section data-pcid="4040.2" id="kpg_509457" class="kedit" data-bgcolor="#EEEFF5" style="background:#EEEFF5">
             <div class="container">
+                @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
                 <div class="text-center col-lg-8 mx-auto">
                     <div class="keditable koPreTitle aos-init aos-animate" data-aos="fade-in">{{ __('contact.title') }}</div>
                     <h2 class="keditable aos-init aos-animate" data-aos="fade-in">{{ __('contact.subtitle') }}</h2>

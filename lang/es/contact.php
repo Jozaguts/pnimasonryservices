@@ -16,4 +16,5 @@ return [
         'message_placeholder' => 'Escribe tu mensaje aquí',
         'submit' => 'Enviar',
     ],
+    'form_success' => '¡Gracias por tu mensaje! Nos pondremos en contacto contigo lo antes posible.',
 ];

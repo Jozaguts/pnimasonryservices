@@ -26,7 +26,7 @@ class ContactController extends Controller
         if (!empty($validatedData['email'])) {
             Mail::to($validatedData['email'])->send(new ContactMessageCopyMail($validatedData));
         }
-        return redirect()->back()->with('success', __('contact.form_fields.submit'));
+        return redirect()->back()->with('success', __('contact.form_success'));
 
     }
 }
