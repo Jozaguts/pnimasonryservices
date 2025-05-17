@@ -256,56 +256,56 @@ const galleries = {
     3: [
         {
             src: '/data/images/gallery/3/1.jpg',
-            w: 900,
-            h: 1270,
+            w: 1080,
+            h: 1080,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/2.jpg',
-            w: 900,
-            h: 570,
+            w: 1080,
+            h: 1440,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/3.jpg',
-            w: 900,
-            h: 570,
+            w: 1080,
+            h: 1440,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/4.jpg',
-            w: 300,
-            h: 570,
+            w: 996,
+            h: 2048,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/5.jpg',
-            w: 700,
-            h: 570,
+            w: 960,
+            h: 960,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/6.jpg',
-            w: 1200,
-            h: 870,
+            w: 720,
+            h: 960,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/7.jpg',
-            w: 900,
-            h: 570,
+            w: 960,
+            h: 960,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/8.jpg',
-            w: 900,
-            h: 570,
+            w: 960,
+            h: 960,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/3/9.jpg',
-            w: 900,
-            h: 570,
+            w: 1080,
+            h: 1440,
             alt: 'test image 1'
         },
     ],

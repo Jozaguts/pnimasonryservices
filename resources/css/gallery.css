@@ -31,11 +31,11 @@
     padding: 2rem;
 }
 .brick:nth-child(4n - 7) {
-    background: #5A363A;
+    background: var(--bg-primary);
 }
 
 .brick:nth-child(4n - 6) {
-    background: #82212C;
+    background: var(--bg-secondary);
 }
 
 .brick:nth-child(4n - 5) {
