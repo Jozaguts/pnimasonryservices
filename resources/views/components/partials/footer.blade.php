@@ -28,37 +28,40 @@
                                 <p>{{ __('ui.main_menu') }}</p>
                                 <ul>
 
-                                    <li data-id="1"><a href="https://pnimasonryservices.com/"
+                                    <li data-id="1">
+                                        <a href="{{ LaravelLocalization::localizeUrl('home') }}"
                                             title="Home"><span>{{ __('ui.nav.home') }}</span></a></li>
 
-                                    <li data-id="2"><a href="about"
+                                    <li data-id="2">
+                                        <a href="{{ LaravelLocalization::localizeUrl('about') }}"
                                             title="About"><span>{{ __('ui.nav.about') }}</span></a></li>
 
-                                    <li data-id="3"><a href="gallery"
+                                    <li data-id="3"><a href="{{ LaravelLocalization::localizeUrl('gallery') }}"
                                             title="Gallery"><span>{{ __('ui.nav.gallery') }}</span></a></li>
 
-                                    <li data-id="5"><a href="services"
+                                    <li data-id="5"><a href="{{ LaravelLocalization::localizeUrl('services') }}"
                                             title="Services"><span>{{ __('ui.nav.services') }}</span></a>
                                     </li>
 
-                                    <li data-id="4"><a href="contact"
+                                    <li data-id="4"><a href="{{ LaravelLocalization::localizeUrl('contact') }}"
                                             title="Contact"><span>{{ __('ui.nav.contact') }}</span></a></li>
                                 </ul>
                             </li>
                         </ul>
-                        <ul class="sitemap">
-                            <li>
-                                <p>Legal</p>
-                                <ul>
+{{--                        <ul class="sitemap">--}}
+{{--                            <li>--}}
+{{--                                <p>Legal</p>--}}
+{{--                                <ul>--}}
 
-                                    <li data-id="1"><a href="terms-of-use"
-                                            title="Terms of use"><span>{{ __('ui.nav.terms') }}</span></a></li>
+{{--                                    <li data-id="1"><a --}}
+{{--                                                href="terms-of-use"--}}
+{{--                                            title="Terms of use"><span>{{ __('ui.nav.terms') }}</span></a></li>--}}
 
-                                    <li data-id="2"><a href="privacy-policy"
-                                            title="Privacy Policy"><span>{{ __('ui.nav.privacy') }}</span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
+{{--                                    <li data-id="2"><a href="privacy-policy"--}}
+{{--                                            title="Privacy Policy"><span>{{ __('ui.nav.privacy') }}</span></a></li>--}}
+{{--                                </ul>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
                     </div>
                 </div>
             </div>
