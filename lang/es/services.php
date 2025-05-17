@@ -24,6 +24,7 @@ return [
         ],
         'image_alt' => 'Terraza de piedra con diseño circular y fogatero al centro',
         'image_title' => 'Diseño en piedra natural: elegancia y funcionalidad para exteriores',
+        'src' => 'data/images/stone.jpg'
     ],
     'block' => [
         'title' => 'Block',
@@ -38,6 +39,7 @@ return [
         ],
         'image_alt' => 'Muro de blocks de concreto en construcción con juntas visibles de mortero',
         'image_title' => 'Muro sólido de block de concreto en proceso de construcción estructural',
+        'src' =>' data/images/block_2.webp',
     ],
     'concrete' => [
         'title' => 'Concreto',
@@ -52,6 +54,7 @@ return [
         ],
         'image_alt' => 'Superficie de concreto recién vertido siendo nivelada por un trabajador de la construcción',
         'image_title' => 'Aplicación de concreto de alta calidad para superficies fuertes y duraderas',
+        'src' => 'data/images/concrete.webp',
     ],
     'stucco' => [
         'title' => 'Estuco',
@@ -66,6 +69,7 @@ return [
         ],
         'image_alt' => 'Aplicación de estuco sobre la fachada de una vivienda moderna',
         'image_title' => 'Acabado con estuco: protección y estética para exteriores e interiores',
+        'src' => 'data/images/stucco.webp',
     ],
     'stamp_concrete' => [
         'title' => 'Concreto Estampado',
@@ -80,6 +84,7 @@ return [
         ],
         'image_alt' => 'Patio con concreto estampado que imita adoquines',
         'image_title' => 'Concreto estampado con acabados decorativos para superficies exteriores',
+        'src' => 'data/images/stamp_concrete_2.webp',
     ],
     'waterproof' => [
         'title' => 'Impermeabilización',
@@ -94,6 +99,7 @@ return [
         ],
         'image_alt' => 'Profesional aplicando recubrimiento impermeabilizante a un muro residencial',
         'image_title' => 'Impermeabilización de estructuras residenciales para evitar filtraciones y humedad',
+        'src' => 'data/images/waterproof.jpg',
     ],
     'pavers' => [
         'title' => 'Pavimento',
@@ -108,6 +114,7 @@ return [
         ],
         'image_alt' => 'Camino empedrado decorativo en un jardín con vegetación',
         'image_title' => 'Diseño de caminos con pavers elegantes y resistentes',
+        'src' => 'data/images/pavers.jpg',
     ],
     'fences' => [
         'title' => 'Cercas',
@@ -122,6 +129,7 @@ return [
         ],
         'image_alt' => 'Cerca blanca de vinilo rodeando un jardín trasero',
         'image_title' => 'Solución de cerca residencial elegante y segura',
+        'src' => 'data/images/not_found.webp',
     ],
     'benefits' => 'Con PNI Services LLC, obtienes calidad, cumplimiento de plazos y atención al cliente. Nos aseguramos de que cada detalle esté a la altura de tus expectativas.',
     'impact_phrases' => [
