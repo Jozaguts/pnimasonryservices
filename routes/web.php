@@ -15,7 +15,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
                 'path'=> 'data/images/gallery/about.webp', 'alt' => 'gallery', 'id' => 1,
             ],
             [
-                'path'=> '/data/images/home_2.jpg', 'alt' => 'gallery', 'id' => 2,
+                'path'=> '/data/images/gallery/2/5.jpg', 'alt' => 'gallery', 'id' => 2,
             ],
             [
                 'path'=> '/data/images/gallery/3/1.jpg', 'alt' => 'gallery', 'id' => 3,

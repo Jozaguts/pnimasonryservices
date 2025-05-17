@@ -206,19 +206,49 @@ const galleries = {
         {
             src: '/data/images/gallery/2/1.jpg',
             w: 900,
-            h: 1270,
+            h: 1970,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/2/2.jpg',
             w: 900,
-            h: 570,
+            h: 416,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/2/3.jpg',
             w: 900,
-            h: 570,
+            h: 416,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/2/4.jpg',
+            w: 900,
+            h: 416,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/2/5.jpg',
+            w: 900,
+            h: 416,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/2/6.jpg',
+            w: 900,
+            h: 416,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/2/7.jpg',
+            w: 900,
+            h: 416,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/2/8.jpg',
+            w: 900,
+            h: 416,
             alt: 'test image 1'
         },
 

@@ -10,11 +10,10 @@
                     <div class="koSeparator koSeparatorBlock aos-init aos-animate" data-aos="fade-in" data-bg="--color1"
                          style="background: var(--color1); width: 100px;"></div>
                 </div>
-                <div class="row">
-
-                    @foreach($images as $image)
-                         <div class="col-md-2 col-lg-2 col-12 pt-2 masonry">
-                             <img class="kimgfilter brick
+                <div class="row masonry">
+                    @foreach($images as $key=>$image)
+                         <div class="col-md-2 col-lg-2 col-12 pt-2  brick">
+                             <img class="kimgfilter item item{{$key}}
                              lazy entered loaded btn-open-pswp-from-arr"
                                   alt="{{ $image['alt']}}"
                                  data-ll-status="loaded"
