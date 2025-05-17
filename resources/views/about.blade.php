@@ -12,7 +12,7 @@
                     <div class="koSeparator koSeparatorBlock aos-init aos-animate" data-aos="fade-in" data-bg="--color1"
                         style="background: var(--color1); width: 100px;"></div>
                     <div class="row">
-                        <div class="col-md-6 col-lg-6 col-12 mx-auto " style="width: 400px; height: 600px;">
+                        <div class="col-md-6 col-lg-6 col-12 mx-auto " style="width: 400px; height: auto;">
                             <img class="kimgfilter3 lazy entered loaded"
                                  alt=""
                                  data-ll-status="loaded"

@@ -323,7 +323,7 @@
             /*overflow:auto;*/
             /*display:flex;flex-direction: row;justify-content: space-between;align-items: center;*/
             background: rgb(255, 255, 255);
-            padding: 20px;
+            padding: 0px;
             margin: 0px;
             border: 0px solid;
             border-radius: 0px;
