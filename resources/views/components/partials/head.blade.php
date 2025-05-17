@@ -1,12 +1,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    @stack('meta')
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="{{ asset('favicon.ico') }}">
-    @stack('meta')
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
