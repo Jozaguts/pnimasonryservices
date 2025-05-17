@@ -528,3 +528,6 @@ img.img-responsive {
     object-fit: cover;
     object-position: top left;
 }
+.services-email-link{
+    font-size: 1rem;
+}

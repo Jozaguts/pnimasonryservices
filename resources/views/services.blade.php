@@ -41,7 +41,7 @@
                             <ul>
                                 <li><i class="fa fa-map-marker"></i><strong>Address</strong> {{__('ui.contact_address')}}</li>
                                 <li><i class="fa fa-phone"></i><strong>phone</strong><a href="tel:+1{{__('ui.contact_phone')}}">{{__('ui.contact_phone')}}</a> (help 24/7 )</li>
-                                <li><i class="fa fa-envelope"></i><strong>email</strong><a href="mailto:{{__('ui.contact_email')}}">{{__('ui.contact_email')}}</a></li>
+                                <li><i class="fa fa-envelope"></i><strong>email</strong><a href="mailto:{{__('ui.contact_email')}}" class="services-email-link">{{__('ui.contact_email')}}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,21 +57,21 @@
                                         <div class="owl-item">
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
+                                                    <img src="{{asset('data/files/img_2367..jpg')}}" alt="{{__('services.block.image_alt')}}" title="__('services.block.image_title')}}" style="max-height: 500px">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item " >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/images/about.webp" alt="" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/about.webp')}}" alt="{{__('services.fences.image_alt')}}" title="{{__('services.fences.image_title')}}" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item " >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="data/images/stone_2.jpg" alt="" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/stone_2.jpg')}}" alt="{{__('services.stone.image_alt')}}" title="{{__('services.stone.image_title')}}" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
@@ -85,21 +85,21 @@
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/waterprof.jpg')}}" alt="" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/waterproof.jpg')}}" alt="{{__('services.waterproof.image_alt')}}" title="{{__('services.waterproof.image_title')}}" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/stucco.webp')}}" alt="" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/stucco.webp')}}"  alt="{{__('services.stucco.image_alt')}}" title="{{__('services.stucco.image_title')}}" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/pavers.jpg')}}" alt="" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/pavers.jpg')}}"  alt="{{__('services.pavers.image_alt')}}" title="{{__('services.pavers.image_title')}}" style="max-height: 360px">
                                                 </div>
                                             </div>
                                         </div>

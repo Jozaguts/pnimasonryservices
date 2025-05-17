@@ -50,7 +50,7 @@
                         <!-- BLOG POST CAROUSEL -->
                         <div class="section-content">
                             <div class="aon-thum-bx">
-                                <img class="img-responsive" src="data/files/img_2367..jpg" alt="" style="max-height: 500px">
+                                <img class="img-responsive" src="{{$src}}" alt="" style="max-height: 500px">
                             </div>
                         </div>
                         <div class="wt-box pt-4">

@@ -24,6 +24,7 @@ return [
         ],
         'image_alt' => 'Circular stone patio with a central fire pit',
         'image_title' => 'Natural stone design: elegance and function for outdoor spaces',
+        'src' => 'data/images/stone.jpg'
     ],
     'block' => [
         'title' => 'Block',
@@ -38,6 +39,7 @@ return [
         ],
         'image_alt' => 'Concrete block wall under construction with visible mortar joints',
         'image_title' => 'Solid concrete block wall in structural construction process',
+        'src' =>' data/images/block_2.webp'
     ],
     'concrete' => [
         'title' => 'Concrete',
@@ -52,6 +54,7 @@ return [
         ],
         'image_alt' => 'Freshly poured concrete surface being leveled by a construction worker',
         'image_title' => 'High-quality concrete application for strong and long-lasting surfaces',
+        'src' => 'data/images/concrete.webp'
     ],
     'stucco' => [
         'title' => 'Stucco',
@@ -66,6 +69,7 @@ return [
         ],
         'image_alt' => 'Stucco being applied to the exterior wall of a modern home',
         'image_title' => 'Stucco finish: protection and aesthetics for exteriors and interiors',
+        'src' => 'data/images/stucco.webp'
     ],
     'stamp_concrete' => [
         'title' => 'Stamped Concrete',
@@ -80,6 +84,7 @@ return [
         ],
         'image_alt' => 'Patio with stamped concrete that imitates cobblestone',
         'image_title' => 'Stamped concrete with decorative finishes for exterior surfaces',
+        'src' => 'data/images/stamp_concrete_2.webp'
     ],
     'waterproof' => [
         'title' => 'Waterproofing',
@@ -94,6 +99,7 @@ return [
         ],
         'image_alt' => 'Professional applying waterproof coating to exterior residential wall',
         'image_title' => 'Waterproofing of residential structures to prevent leaks and moisture',
+        'src' => 'data/images/waterproof.jpg'
     ],
     'pavers' => [
         'title' => 'Pavers',
@@ -108,6 +114,7 @@ return [
         ],
         'image_alt' => 'Decorative stone paver walkway in a landscaped garden',
         'image_title' => 'Paver walkway design for elegant and durable outdoor spaces',
+        'src' => 'data/images/pavers.jpg'
     ],
     'fences' => [
         'title' => 'Fences',
@@ -122,6 +129,7 @@ return [
         ],
         'image_alt' => 'White vinyl fence enclosing a landscaped backyard',
         'image_title' => 'Stylish and secure residential fencing solution',
+        'src' => 'data/images/not_found.webp'
     ],
 
     'benefits' => 'With PNI Services LLC, you get quality, timely delivery, and customer care. We ensure that every detail meets your expectations.',
