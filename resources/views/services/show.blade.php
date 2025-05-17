@@ -1,5 +1,5 @@
 @extends('components.layouts.app')
-@vite([ 'resources/js/pages/gallery.js', 'resources/css/services.css'])
+@vite([ 'resources/js/pages/services.js', 'resources/css/services.css'])
 @section('content')
     <main class="WxEditableArea" id="contentArea">
         <div id="contentAreaElement" class="kelement"></div>
