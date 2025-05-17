@@ -1,13 +1,21 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
+
+
 Route::group(['prefix' => LaravelLocalization::setLocale(),
     'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]], function() {
+
     Route::get('/', function () {
         return view('home');
     });
     Route::get('/about', function () {
         return view('about');
+    });
+    Route::get('/contact', function () {
+        return view('contact');
     });
     Route::get('/gallery', function () {
         $data = [ 'images' => [
@@ -33,9 +41,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
 
         return view('gallery', $data);
     });
-    Route::get('/services/{service}', [\App\Http\Controllers\ServiceController::class, 'show']);
+    Route::get('/services/{service}', [ServiceController::class, 'show']);
     Route::get('/services', function () {
         return view('services');
     });
+    Route::post('/contact', ContactController::class)->name('contact.send');
 });
 
