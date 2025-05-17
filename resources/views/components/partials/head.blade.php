@@ -6,7 +6,6 @@
     <meta name="keywords" content="">
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="{{ asset('favicon.ico') }}">
-    <title>PNI Masonry Services</title>
     @stack('meta')
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" crossorigin="">
