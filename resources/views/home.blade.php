@@ -1,3 +1,7 @@
+@push('meta')
+    <title>{{ __('meta.home.title') }}</title>
+    <meta name="description" content="{{ __('meta.home.description') }}">
+@endpush
 @extends('components.layouts.app')
 @section('content')
     <div id="contentAreaElement" class="kelement"></div>
@@ -7,9 +11,15 @@
                 <div class="col-lg">
                     <div class="col-container">
                         <div class="mt-2 mb-2 kimgRatio2">
-                            <img title="PNI masonry services logo " alt="PNI masonry services logo"
-                                 class="img-fluid lazy entered loaded" data-src="data/files/brandpniservicescurvas3.png"
-                                 data-ll-status="loaded" src="data/files/brandpniservicescurvas3.png">
+                            <img title="PNI masonry services logo"
+                                 alt="PNI masonry services logo"
+                                 width="600"
+                                 height="367"
+                                 class="img-fluid lazy entered loaded"
+                                 data-src="{{asset('data/images/logo.png')}}"
+                                 data-ll-status="loaded"
+                                 src="{{asset('data/images/logo.png')}}"
+                            >
                         </div>
                     </div>
                 </div>
@@ -24,7 +34,8 @@
                         <div style="font-size: 24px;" class="mt-2 mb-2 keditable">
                             {{ __('home.welcome_subtitle') }}
                         </div>
-                        <div class="koButtons d-flex mt-4 mb-2"><a
+                        <div class="koButtons d-flex mt-4 mb-2">
+                            <a href="{{ LaravelLocalization::localizeUrl('contact') }}"
                                     class="btn btn-color1">{{ __('home.btn_get_started') }}</a>
                             <a class="btn btn-color2"
                                href="{{ LaravelLocalization::localizeUrl('about') }}">{{ __('home.btn_more_info') }}</a>
@@ -57,6 +68,8 @@
                          alt="{{__('home.images.home_1.alt')}}"
                          title="{{__('home.images.home_1.title')}}"
                          data-ll-status="loaded"
+                         width="470"
+                         height="470"
                          data-src="{{asset('data/images/about.webp')}}"
                          src="{{asset('data/images/about.webp')}}"
                         >
@@ -70,6 +83,8 @@
                              alt="{{__('home.images.home_2.alt')}}"
                              title="{{__('home.images.home_2.title')}}"
                              data-ll-status="loaded"
+                             width="470"
+                             height="470"
                              data-src="{{asset('data/images/home_2.jpg')}}"
                              src="{{asset('data/images/home_2.jpg')}}"
                         >
@@ -83,8 +98,10 @@
                              alt="{{__('home.images.home_3.alt')}}"
                              title="{{__('home.images.home_3.title')}}"
                              data-ll-status="loaded"
-                             data-src="{{asset('data/files/img_2367..jpg')}}"
-                             src="{{asset('data/files/img_2367..jpg')}}"
+                             width="470"
+                             height="470"
+                             data-src="{{asset('data/images/about__4.jpg')}}"
+                             src="{{asset('data/images/about__4.jpg')}}"
                         >
                     </div>
 
@@ -96,6 +113,8 @@
                              alt="{{__('home.images.home_4.alt')}}"
                              title="{{__('home.images.home_4.title')}}"
                              data-ll-status="loaded"
+                             width="470"
+                             height="470"
                              data-src="{{asset('data/images/home4.jpg')}}"
                              src="{{asset('data/images/home4.jpg')}}"
                         >
@@ -110,6 +129,8 @@
                              alt="{{__('home.images.home_5.alt')}}"
                              title="{{__('home.images.home_5.title')}}"
                              data-ll-status="loaded"
+                             width="470"
+                             height="470"
                              data-src="{{asset('data/images/pavers.jpg')}}"
                              src="{{asset('data/images/pavers.jpg')}}"
                         >
@@ -132,10 +153,15 @@
                     <div class="keditable">{{ __('home.creativity.description') }}</div>
                     <div class="px-5">
                         <div class="kimgRatio1 mt-4">
-                            <img class="kimgfilter6 lazy entered loaded" alt="{{ __('home.creativity.image_alt') }}"
+                            <img class="kimgfilter6 lazy entered loaded"
+                                 alt="{{ __('home.creativity.image_alt') }}"
                                  title="{{ __('home.creativity.image_title') }}"
-                                 data-src="data/files/screenshot2024-10-10at4.49.57am.png" data-ll-status="loaded"
-                                 src="data/files/screenshot2024-10-10at4.49.57am.png">
+                                 data-src="{{asset('data/images/home__1.webp')}}"
+                                 data-ll-status="loaded"
+                                 width="320"
+                                 height="320"
+                                 src="{{asset('data/images/home__1.webp')}}"
+                            >
                         </div>
                     </div>
 
@@ -145,9 +171,14 @@
                     <div class="keditable">{{ __('home.comfort.description') }}</div>
                     <div class="px-5">
                         <div class="kimgRatio1 mt-4">
-                            <img class="kimgfilter6 lazy entered loaded" alt="{{ __('home.comfort.image_alt') }}"
-                                 title="{{ __('home.comfort.image_title') }}" data-src="data/files/img_2350..jpg"
-                                 data-ll-status="loaded" src="data/files/img_2350..jpg">
+                            <img class="kimgfilter6 lazy entered loaded"
+                                 alt="{{ __('home.comfort.image_alt') }}"
+                                 title="{{ __('home.comfort.image_title') }}"
+                                 data-src="{{asset('/data/images/home__2.png')}}"
+                                 data-ll-status="loaded"
+                                 width="320"
+                                 height="320"
+                                 src="{{asset('/data/images/home__2.png')}}">
                         </div>
                     </div>
 
@@ -160,6 +191,8 @@
                             <img class="kimgfilter6 lazy entered loaded"
                                  alt="{{ __('home.innovation.image_title') }}"
                                  title="{{ __('home.innovation.image_title') }}"
+                                 width="320"
+                                 height="320"
                                  data-src="{{asset('data/images/stamp_concrete.jpg')}}"
                                  data-ll-status="loaded" src="{{asset('data/images/stamp_concrete.jpg')}}">
                         </div>
@@ -220,19 +253,30 @@
              style="background: linear-gradient(to bottom,#6d71b7,#25274d);">
         <div class="row justify-content-center align-contents-center mx-5 mx-md-0 skiptranslate">
             <div class="col-12 col-md-auto d-flex align-items-center">
-                    <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
-                                class="koIcon fas fa-phone"></i></span>
-                <div class="keditable me-5 ms-3">{{ __('ui.contact_phone') }}<a href="tel:2677337053"><br></a></div>
+                <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0">
+                    <i class="koIcon fas fa-phone"></i>
+                </span>
+                <div class="keditable me-5 ms-3">
+                    <a href="tel:2677337053">{{ __('ui.contact_phone') }}</a>
+                </div>
             </div>
             <div class="col-12 col-md-auto d-flex align-items-center my-4 my-md-0">
-                    <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
-                                class="koIcon fas fa-envelope"></i></span>
-                <div class="keditable me-5 ms-3">{{ __('ui.contact_email') }}</div>
+                <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0">
+                    <i class="koIcon fas fa-envelope"></i>
+                </span>
+                <div class="keditable me-5 ms-3">
+                    <a href="mailto:info@pnimasonryservices.com">{{ __('ui.contact_email') }}</a>
+                </div>
             </div>
             <div class="col-12 col-md-auto d-flex align-items-center">
-                    <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0"><i
-                                class="koIcon fas fa-map-marker-alt"></i></span>
-                <div class="keditable ms-3">{{ __('ui.contact_address') }}<div>{{ __('ui.contact_city') }}</div>
+                <span class="koIconStyle1 koIconHolder koIconSize100 me-1 ms-0">
+                <i class="koIcon fas fa-map-marker-alt"></i>
+                </span>
+                <div class="keditable ms-3">
+                    <a href="https://maps.google.com/?q=PNI+Masonry+Services,+Your+City,+Your+State"
+                       target="_blank" rel="noopener">
+                        {{ __('ui.contact_address') }}<div>{{ __('ui.contact_city') }}</div>
+                    </a>
                 </div>
             </div>
         </div>

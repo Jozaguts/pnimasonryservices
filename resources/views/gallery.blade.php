@@ -1,3 +1,7 @@
+@push('meta')
+    <title>{{ __('meta.gallery.title') }}</title>
+    <meta name="description" content="{{ __('meta.gallery.description') }}">
+@endpush
 @extends('components.layouts.app')
 @section('content')
     <main class="WxEditableArea" id="contentArea">

@@ -3,7 +3,6 @@
 
 <head>
     <x-partials.head />
-    <title>{{ __('add page name') }}}}</title>
     @stack('styles')
 </head>
 

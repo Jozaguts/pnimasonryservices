@@ -1,3 +1,7 @@
+@push('meta')
+    <title>{{ __('meta.services.title') }}</title>
+    <meta name="description" content="{{ __('meta.services.description') }}">
+@endpush
 @extends('components.layouts.app')
 @vite([ 'resources/js/pages/services.js', 'resources/css/services.css'])
 @section('content')

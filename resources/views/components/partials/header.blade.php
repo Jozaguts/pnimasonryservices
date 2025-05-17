@@ -4,8 +4,13 @@
             <div class="logoHolder skiptranslate">
                 <a href="{{ LaravelLocalization::localizeUrl('/') }}" class="logo">
                     <h2>
-                        <img src="{{ asset('data/files/screenshot2024-10-10at4.01.51am.png') }}" style="border:0"
-                            id="WebsiteLogo" alt="PNI Masonry Services">
+                        <img src="{{ asset('data/files/screenshot2024-10-10at4.01.51am.png') }}"
+                             style="border:0"
+                             id="WebsiteLogo"
+                             width="84"
+                             height="60"
+                             alt="PNI Masonry Services"
+                        >
                         <span id="WebsiteLogoTitle">PNI Masonry Services</span>
                     </h2>
                 </a>

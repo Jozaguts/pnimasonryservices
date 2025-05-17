@@ -7,6 +7,8 @@
                         <img class="keditFooterLogo lazy" alt="{{ __('ui.logo.image_alt') }}"
                             title="{{ __('ui.logo.image_title') }}"
                             data-src="data/files/screenshot2024-10-10at4.01.51am.png"
+                             width="139"
+                             height="100"
                             src="data/files/screenshot2024-10-10at4.01.51am.png">
                         <div class="keditable mt-4 keditFooterCompany"><strong>{{ __('ui.company_name') }}</strong><br>
                             {{ __('ui.contact_address') }}&nbsp;<div>{{ __('ui.contact_city') }}<div><a
@@ -23,7 +25,7 @@
                     <div class="kedit keditFooterMenu" id="kpg_6683922">
                         <ul class="sitemap">
                             <li>
-                                <h5>{{ __('ui.main_menu') }}</h5>
+                                <p>{{ __('ui.main_menu') }}</p>
                                 <ul>
 
                                     <li data-id="1"><a href="https://pnimasonryservices.com/"
@@ -46,7 +48,7 @@
                         </ul>
                         <ul class="sitemap">
                             <li>
-                                <h5>Legal</h5>
+                                <p>Legal</p>
                                 <ul>
 
                                     <li data-id="1"><a href="terms-of-use"
@@ -74,13 +76,22 @@
                     <div class="col-sm-5">
                         <div class="kedit keditFooterApp" id="kpg_8638494">
                             <div class="footerHolder" id="keditFooterModule">
-                                <div class="social_fa social_bw social_bwh social_footer"><a target="_blank"
-                                        href="https://www.facebook.com/100084430074539"><i
-                                            class="fab fa-facebook-square fa-2x fa-fw"></i></a><a target="_blank"
-                                        href="https://x.com/Twitter"><i class="fab fa-x-twitter fa-2x fa-fw"></i></a><a
-                                        target="_blank" href="https://www.youtube.com/YouTube"><i
-                                            class="fab fa-youtube fa-2x fa-fw"></i></a></div>
+                                <div class="social_fa social_bw social_bwh social_footer">
+                                    <a target="_blank" href="https://www.facebook.com/100084430074539">
+                                        <i class="fab fa-facebook-square fa-2x fa-fw"></i>
+                                        <span class="sr-only">Follow us on Facebook</span>
+                                    </a>
+                                    <a target="_blank" href="https://x.com/Twitter">
+                                        <i class="fab fa-x-twitter fa-2x fa-fw"></i>
+                                        <span class="sr-only">Follow us on Twitter</span>
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/YouTube">
+                                        <i class="fab fa-youtube fa-2x fa-fw"></i>
+                                        <span class="sr-only">Subscribe on YouTube</span>
+                                    </a>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
