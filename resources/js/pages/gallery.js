@@ -313,21 +313,40 @@ const galleries = {
         {
             src: '/data/images/gallery/4/1.jpg',
             w: 900,
-            h: 1270,
+            h: 675,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/4/2.jpg',
             w: 900,
-            h: 570,
+            h: 675,
             alt: 'test image 1'
         },
         {
             src: '/data/images/gallery/4/3.jpg',
             w: 900,
-            h: 570,
+            h: 675,
             alt: 'test image 1'
         },
+        {
+            src: '/data/images/gallery/4/3.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/4/3.jpg',
+            w: 900,
+            h: 675,
+            alt: 'test image 1'
+        },
+        {
+            src: '/data/images/gallery/4/3.jpg',
+            w: 2028,
+            h: 1536,
+            alt: 'test image 1'
+        },
+
     ]
 }
 const options = {
