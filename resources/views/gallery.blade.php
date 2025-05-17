@@ -12,8 +12,22 @@
                 </div>
                 <div class="row">
 
+                    @foreach($images as $image)
+                         <div class="col-md-2 col-lg-2 col-12 pt-2 masonry">
+                             <img class="kimgfilter brick
+                             lazy entered loaded btn-open-pswp-from-arr"
+                                  alt="{{ $image['alt']}}"
+                                 data-ll-status="loaded"
+                                 src="{{ asset($image['path']) }}"
+                                 style="width: 100%; height: auto; max-width: 200px"
+                                  data-id="{{$image['id']}}"
+                                  onClick="showGallery(this)"
+                             >
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </section>
     </main>
 @endsection
+@vite([ 'resources/js/pages/gallery.js','resources/css/gallery.css'])

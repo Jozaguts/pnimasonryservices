@@ -10,7 +10,25 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         return view('about');
     });
     Route::get('/gallery', function () {
-        return view('gallery');
+        $data = [ 'images' => [
+            [
+                'path'=> 'data/images/gallery/about.webp', 'alt' => 'gallery', 'id' => 1,
+            ],
+            [
+                'path'=> '/data/images/home_2.jpg', 'alt' => 'gallery', 'id' => 2,
+            ],
+            [
+                'path'=> '/data/images/gallery/3/1.jpg', 'alt' => 'gallery', 'id' => 3,
+            ],
+            [
+                'path'=> '/data/images/gallery/4/3.jpg', 'alt' => 'gallery', 'id' => 4,
+            ],
+            [
+                'path'=> '/data/images/gallery/5/3.jpg', 'alt' => 'gallery', 'id' => 5,
+            ],
+        ]];
+
+        return view('gallery', $data);
     });
     Route::get('/services/{service}', [\App\Http\Controllers\ServiceController::class, 'show']);
     Route::get('/services', function () {
