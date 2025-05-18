@@ -531,3 +531,6 @@ img.img-responsive {
 .services-email-link{
     font-size: 1rem;
 }
+.owl-item {
+    object-fit: cover;
+}

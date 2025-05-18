@@ -56,61 +56,102 @@
                             <div
                                 class="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b30 owl-loaded owl-drag">
                                 <div class="owl-stage-outer">
-                                    <div class="owl-stage"
-                                        style="transform: translate3d(-2650px, 0px, 0px); transition: all; width: 6185px;">
+                                    <div class="owl-stage" >
                                         <div class="owl-item">
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/files/img_2367..jpg')}}" alt="{{__('services.block.image_alt')}}" title="__('services.block.image_title')}}" style="max-height: 500px">
+                                                    <img src="{{asset('data/files/services_1.webp')}}"
+                                                         alt="{{__('services.block.image_alt')}}"
+                                                         title="__('services.block.image_title')}}"
+                                                         width="900"
+                                                         height="675"
+                                                         style="max-height: 675"
+                                                    >
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item " >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/about.webp')}}" alt="{{__('services.fences.image_alt')}}" title="{{__('services.fences.image_title')}}" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/gallery/1/P1422048.jpg')}}"
+                                                         alt="{{__('services.fences.image_alt')}}"
+                                                         width="900"
+                                                         height="675"
+                                                         style="max-height: 675"
+                                                         title="{{__('services.fences.image_title')}}">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item " >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/stone_2.jpg')}}" alt="{{__('services.stone.image_alt')}}" title="{{__('services.stone.image_title')}}" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/stone_2.jpg')}}"
+                                                         alt="{{__('services.stone.image_alt')}}"
+                                                         width="570"
+                                                         height="478"
+                                                         style="max-height: 675"
+                                                         title="{{__('services.stone.image_title')}}">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/home4.jpg')}}" alt="" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/home4.jpg')}}"
+                                                         width="900"
+                                                         height="675"
+                                                         style="max-height: 675; object-fit: contain;"
+                                                         alt="{{__('services.stone.image_alt')}}">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/waterproof.jpg')}}" alt="{{__('services.waterproof.image_alt')}}" title="{{__('services.waterproof.image_title')}}" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/waterproof.jpg')}}"
+                                                         alt="{{__('services.waterproof.image_alt')}}"
+                                                         title="{{__('services.waterproof.image_title')}}"
+                                                         width="900"
+                                                         height="675"
+                                                         style="max-height: 675"
+                                                    >
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/stucco.webp')}}"  alt="{{__('services.stucco.image_alt')}}" title="{{__('services.stucco.image_title')}}" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/stucco.webp')}}"
+                                                         alt="{{__('services.stucco.image_alt')}}"
+                                                         width="900"
+                                                         height="675"
+                                                         style="max-height: 675"
+                                                         title="{{__('services.stucco.image_title')}}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" >
+                                            <div class="item">
+                                                <div class="aon-thum-bx text-center">
+                                                    <img src="{{asset('data/images/pavers.jpg')}}"
+                                                         alt="{{__('services.pavers.image_alt')}}"
+                                                         width="auto"
+                                                         height="100%"
+                                                         class="text-center"
+                                                         style="max-height: 675; max-width: 400!important;"
+                                                         title="{{__('services.pavers.image_title')}}">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="owl-item" >
                                             <div class="item">
                                                 <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/pavers.jpg')}}"  alt="{{__('services.pavers.image_alt')}}" title="{{__('services.pavers.image_title')}}" style="max-height: 360px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" >
-                                            <div class="item">
-                                                <div class="aon-thum-bx">
-                                                    <img src="{{asset('data/images/gallery/7/1.jpg')}}"  alt="{{__('services.fences.image_alt')}}" title="{{__('services.fences.image_title')}}" style="max-height: 360px">
+                                                    <img src="{{asset('data/images/gallery/7/1.jpg')}}"
+                                                         alt="{{__('services.fences.image_alt')}}"
+                                                         width="900"
+                                                         height="675"
+                                                         style="max-height: 675"
+                                                         title="{{__('services.fences.image_title')}}">
                                                 </div>
                                             </div>
                                         </div>
