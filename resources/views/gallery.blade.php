@@ -24,7 +24,6 @@
                                  style="width: 100%; height: 100%; object-fit: cover; max-width: 200px"
                                   data-id="{{$image['id']}}"
                                   onClick="showGallery(this)"
-
                              >
                         </div>
                     @endforeach

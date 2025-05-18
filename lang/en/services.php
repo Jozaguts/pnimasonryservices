@@ -129,7 +129,7 @@ return [
         ],
         'image_alt' => 'White vinyl fence enclosing a landscaped backyard',
         'image_title' => 'Stylish and secure residential fencing solution',
-        'src' => 'data/images/not_found.webp'
+        'src' => 'data/images/gallery/7/1.jpg'
     ],
 
     'benefits' => 'With PNI Services LLC, you get quality, timely delivery, and customer care. We ensure that every detail meets your expectations.',

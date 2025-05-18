@@ -107,6 +107,13 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="owl-item" >
+                                            <div class="item">
+                                                <div class="aon-thum-bx">
+                                                    <img src="{{asset('data/images/gallery/7/1.jpg')}}"  alt="{{__('services.fences.image_alt')}}" title="{{__('services.fences.image_title')}}" style="max-height: 360px">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
